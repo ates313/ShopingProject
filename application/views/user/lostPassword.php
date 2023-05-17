@@ -1,122 +1,14 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en-US">
 
-<head>
-    <meta charset="UTF-8">
-    <!--[if IE]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Groover - Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more</title>
-    <!-- Standard Favicon -->
-    <link href="favicon.ico" rel="shortcut icon">
-    <!-- Base Google Font for Web-app -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <!-- Google Fonts for Banners only -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
-    <!-- Bootstrap 4 -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Font Awesome 5 -->
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <!-- Ion-Icons 4 -->
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Owl-Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!-- Jquery-Ui-Range-Slider -->
-    <link rel="stylesheet" href="css/jquery-ui-range-slider.min.css">
-    <!-- Utility -->
-    <link rel="stylesheet" href="css/utility.css">
-    <!-- Main -->
-    <link rel="stylesheet" href="css/bundle.css">
-</head>
 
-<body>
+<?php $this->load->view('user/includes/headStyleCss'); ?>
+
+
+
 
 <!-- app -->
 <div id="app">
     <!-- Header -->
-    <header>
-        <!-- Top-Header -->
-        <div class="full-layer-outer-header">
-            <div class="container clearfix">
-                <nav>
-                    <ul class="primary-nav g-nav">
-                        <li>
-                            <a href="tel:+111444989">
-                                <i class="fas fa-phone u-c-brand u-s-m-r-9"></i>
-                                Telephone:+111-444-989</a>
-                        </li>
-                        <li>
-                            <a href="mailto:contact@domain.com">
-                                <i class="fas fa-envelope u-c-brand u-s-m-r-9"></i>
-                                E-mail: contact@domain.com
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <nav>
-                    <ul class="secondary-nav g-nav">
-                        <li>
-                            <a>My Account
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:200px">
-                                <li>
-                                    <a href="cart.html">
-                                        <i class="fas fa-cog u-s-m-r-9"></i>
-                                        My Cart</a>
-                                </li>
-                                <li>
-                                    <a href="wishlist.html">
-                                        <i class="far fa-heart u-s-m-r-9"></i>
-                                        My Wishlist</a>
-                                </li>
-                                <li>
-                                    <a href="checkout.html">
-                                        <i class="far fa-check-circle u-s-m-r-9"></i>
-                                        Checkout</a>
-                                </li>
-                                <li>
-                                    <a href="account.html">
-                                        <i class="fas fa-sign-in-alt u-s-m-r-9"></i>
-                                        Login / Signup</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a>USD
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:90px">
-                                <li>
-                                    <a href="#" class="u-c-brand">($) USD</a>
-                                </li>
-                                <li>
-                                    <a href="#">(£) GBP</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a>ENG
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:70px">
-                                <li>
-                                    <a href="#" class="u-c-brand">ENG</a>
-                                </li>
-                                <li>
-                                    <a href="#">ARB</a>
-                                </li>
-                            </ul>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <!-- Top-Header /- -->
+    <?php $this->load->view('user/includes/headerTopStyle'); ?>
         <!-- Mid-Header -->
         <div class="full-layer-mid-header">
             <div class="container">
@@ -750,7 +642,7 @@
                                     <ul>
                                         <li class="menu-title">Ecommerce Pages</li>
                                         <li>
-                                            <a href="shop-v2-sub-category.html" class="u-c-brand">Shop</a>
+                                            <a href="shop-v2-sub-category.html">Shop</a>
                                         </li>
                                         <li>
                                             <a href="cart.html">Cart</a>
@@ -797,14 +689,14 @@
                                             <a href="shop-v4-filter-as-category.html">Shop Ver 4 Filter as Category</a>
                                         </li>
                                         <li>
-                                            <a href="shop-v5-product-not-found.html" class="u-c-brand">Shop Ver 5 Product Not Found</a>
+                                            <a href="shop-v5-product-not-found.html">Shop Ver 5 Product Not Found</a>
                                         </li>
                                         <li>
                                             <a href="shop-v6-search-results.html">Shop Ver 6 Search Results</a>
                                         </li>
                                         <li class="menu-title">My Account Variation</li>
                                         <li>
-                                            <a href="lost-password.html">Lost Your Password ?</a>
+                                            <a href="lost-password.html" class="u-c-brand">Lost Your Password ?</a>
                                         </li>
                                         <li class="menu-title">Checkout Variation</li>
                                         <li>
@@ -834,50 +726,47 @@
     <div class="page-style-a">
         <div class="container">
             <div class="page-intro">
-                <h2>Shop</h2>
+                <h2>Lost Password</h2>
                 <ul class="bread-crumb">
                     <li class="has-separator">
                         <i class="ion ion-md-home"></i>
                         <a href="home.html">Home</a>
                     </li>
                     <li class="is-marked">
-                        <a href="shop-v5-product-not-found.html">Shop</a>
+                        <a href="lost-password.html">Lost Password</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- Page Introduction Wrapper /- -->
-    <!-- Shop-Page -->
-    <div class="page-shop u-s-p-t-80">
+    <!-- Lost-password-Page -->
+    <div class="page-lost-password u-s-p-t-80">
         <div class="container">
-            <!-- Result-Wrapper -->
-            <div class="result-wrapper u-s-p-y-80">
-                <ul class="bread-crumb">
-                    <li class="has-separator">
-                        <a href="home.html">Home</a>
-                    </li>
-                    <li class="is-marked">
-                        <a href="store-directory.html">All Categories</a>
-                    </li>
-                </ul>
-                <h4>Your search, did not match any products. A partial match of your keywords is listed below.</h4>
-                <h4>Related searches:
-                    <a href="shop-v1-root-category.html">men's clothing</a> ,
-                    <a href="shop-v1-root-category.html">mobiles & tablets</a> ,
-                    <a href="shop-v1-root-category.html">books & audible</a>
-                </h4>
-                <h1>SORRY</h1>
+            <div class="page-lostpassword">
+                <h2 class="account-h2 u-s-m-b-20">Forgot Password ?</h2>
+                <h6 class="account-h6 u-s-m-b-30">Enter your email or username below and we will send you a link to reset your password.</h6>
                 <form>
-                    <label class="sr-only" for="search-not-found">Enter Keywords</label>
-                    <input type="text" class="text-field" id="search-not-found" placeholder="Search Products...">
-                    <button class="button">Search</button>
+                    <div class="w-50">
+                        <div class="u-s-m-b-13">
+                            <label for="user-name-email">Username or Email
+                                <span class="astk">*</span>
+                            </label>
+                            <input type="text" id="user-name-email" class="text-field" placeholder="Username / Email">
+                        </div>
+                        <div class="u-s-m-b-13">
+                            <button class="button button-outline-secondary">Get Reset Link</button>
+                        </div>
+                    </div>
+                    <div class="page-anchor">
+                        <a href="account.html">
+                            <i class="fas fa-long-arrow-alt-left u-s-m-r-9"></i>Back to Login</a>
+                    </div>
                 </form>
             </div>
-            <!-- Result-Wrapper /- -->
         </div>
     </div>
-    <!-- Shop-Page /- -->
+    <!-- Lost-Password-Page /- -->
     <!-- Footer -->
     <footer class="footer">
         <div class="container">

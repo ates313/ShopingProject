@@ -1,122 +1,14 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en-US">
 
-<head>
-    <meta charset="UTF-8">
-    <!--[if IE]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Groover - Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more</title>
-    <!-- Standard Favicon -->
-    <link href="favicon.ico" rel="shortcut icon">
-    <!-- Base Google Font for Web-app -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <!-- Google Fonts for Banners only -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
-    <!-- Bootstrap 4 -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Font Awesome 5 -->
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <!-- Ion-Icons 4 -->
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Owl-Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!-- Jquery-Ui-Range-Slider -->
-    <link rel="stylesheet" href="css/jquery-ui-range-slider.min.css">
-    <!-- Utility -->
-    <link rel="stylesheet" href="css/utility.css">
-    <!-- Main -->
-    <link rel="stylesheet" href="css/bundle.css">
-</head>
 
-<body>
+<?php $this->load->view('user/includes/headStyleCss'); ?>
+
+
+
 
 <!-- app -->
 <div id="app">
     <!-- Header -->
-    <header>
-        <!-- Top-Header -->
-        <div class="full-layer-outer-header">
-            <div class="container clearfix">
-                <nav>
-                    <ul class="primary-nav g-nav">
-                        <li>
-                            <a href="tel:+111444989">
-                                <i class="fas fa-phone u-c-brand u-s-m-r-9"></i>
-                                Telephone:+111-444-989</a>
-                        </li>
-                        <li>
-                            <a href="mailto:contact@domain.com">
-                                <i class="fas fa-envelope u-c-brand u-s-m-r-9"></i>
-                                E-mail: contact@domain.com
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <nav>
-                    <ul class="secondary-nav g-nav">
-                        <li>
-                            <a>My Account
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:200px">
-                                <li>
-                                    <a href="cart.html">
-                                        <i class="fas fa-cog u-s-m-r-9"></i>
-                                        My Cart</a>
-                                </li>
-                                <li>
-                                    <a href="wishlist.html">
-                                        <i class="far fa-heart u-s-m-r-9"></i>
-                                        My Wishlist</a>
-                                </li>
-                                <li>
-                                    <a href="checkout.html">
-                                        <i class="far fa-check-circle u-s-m-r-9"></i>
-                                        Checkout</a>
-                                </li>
-                                <li>
-                                    <a href="account.html">
-                                        <i class="fas fa-sign-in-alt u-s-m-r-9"></i>
-                                        Login / Signup</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a>USD
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:90px">
-                                <li>
-                                    <a href="#" class="u-c-brand">($) USD</a>
-                                </li>
-                                <li>
-                                    <a href="#">(£) GBP</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a>ENG
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:70px">
-                                <li>
-                                    <a href="#" class="u-c-brand">ENG</a>
-                                </li>
-                                <li>
-                                    <a href="#">ARB</a>
-                                </li>
-                            </ul>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <!-- Top-Header /- -->
+    <?php $this->load->view('user/includes/headerTopStyle'); ?>
         <!-- Mid-Header -->
         <div class="full-layer-mid-header">
             <div class="container">
@@ -727,7 +619,7 @@
                                             <a href="faq.html">FAQ</a>
                                         </li>
                                         <li>
-                                            <a href="store-directory.html">Store Directory</a>
+                                            <a href="store-directory.html" class="u-c-brand">Store Directory</a>
                                         </li>
                                         <li>
                                             <a href="terms-and-conditions.html">Terms & Conditions</a>
@@ -744,7 +636,7 @@
                                             <a href="blog.html">Blog Page</a>
                                         </li>
                                         <li>
-                                            <a href="blog-detail.html" class="u-c-brand">Blog Details</a>
+                                            <a href="blog-detail.html">Blog Details</a>
                                         </li>
                                     </ul>
                                     <ul>
@@ -834,232 +726,1153 @@
     <div class="page-style-a">
         <div class="container">
             <div class="page-intro">
-                <h2>Post Name</h2>
+                <h2>Directory</h2>
                 <ul class="bread-crumb">
                     <li class="has-separator">
                         <i class="ion ion-md-home"></i>
                         <a href="home.html">Home</a>
                     </li>
                     <li class="is-marked">
-                        <a href="blog-detail.html">Post Name</a>
+                        <a href="store-directory.html">Directory</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- Page Introduction Wrapper /- -->
-    <!-- Blog-Detail-Page -->
-    <div class="page-blog-detail u-s-p-t-80">
-        <div class="blog-detail-wrapper">
-            <h1 class="blog-post-detail-heading">Your Life is an extraordinary Adventure</h1>
-            <div class="blog-post-info u-s-m-b-13">
-                <span class="blog-post-preposition">By</span>
-                <a class="blog-post-author-name" href="blog-detail.html">Admin</a>
-                <span class="blog-post-info-separator">/</span>
-                <a class="blog-post-comment" href="blog-detail.html">Comments (4)</a>
-                <span class="blog-post-info-separator">/</span>
-                <span class="blog-post-published-date">
-                    <span>14</span>/
-                    <span>06</span>/
-                    <span>2016</span>
-                </span>
-            </div>
-            <div class="post-content">
-                <img class="img-fluid" src="images/blog/blog-01.jpg" alt="Blog Post 1">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid, architecto corporis enim eum exercitationem fugit harum iste laudantium maxime nam non ratione reiciendis repellendus repudiandae soluta, velit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem beatae, consequuntur dolores inventore
-                    <a href="">laboriosam</a> maiores necessitatibus neque odit quisquam ratione rerum sequi unde veniam veritatis, voluptatem, voluptatibus. Amet, dicta?
-                </p>
-                <blockquote>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi corporis cum cumque deserunt expedita explicabo id ipsa nemo officia praesentium quidem, sed, sint soluta sunt tenetur voluptas! Quaerat, reiciendis!
-                    </p>
-                </blockquote>
-                <p>
-                    Lorem ipsum dolor
-                    <a href="">sit amet</a>, consectetur adipisicing elit. Ab aliquam aliquid, architecto corporis enim eum exercitationem fugit harum iste laudantium maxime nam non ratione reiciendis repellendus repudiandae soluta, velit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem beatae, consequuntur dolores
-                    <a href="">inventore</a> laboriosam maiores necessitatibus neque odit quisquam ratione rerum sequi unde veniam veritatis,
-                    <a href="">voluptatem</a>, voluptatibus. Amet, dicta?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet,
-                    <a href="#">consectetur</a> adipisicing elit. Ab aliquam aliquid, architecto corporis enim eum exercitationem fugit harum iste laudantium maxime nam non ratione reiciendis repellendus repudiandae soluta, velit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem beatae, consequuntur dolores inventore laboriosam
-                    <a href="#">maiores</a> necessitatibus neque odit quisquam ratione rerum sequi unde veniam veritatis, voluptatem, voluptatibus. Amet, dicta?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid, architecto corporis enim eum exercitationem fugit harum iste laudantium maxime nam non ratione reiciendis repellendus repudiandae soluta, velit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem beatae, consequuntur dolores inventore laboriosam maiores necessitatibus neque
-                    <a href="#">odit</a>
-                    quisquam ratione rerum sequi unde veniam veritatis, voluptatem, voluptatibus. Amet, dicta?
-                </p>
-                <p>
-                    Lorem
-                    <a href="#">ipsum</a> dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid, architecto corporis enim eum exercitationem fugit harum iste laudantium maxime nam non ratione reiciendis repellendus repudiandae soluta, velit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem beatae, consequuntur dolores inventore laboriosam maiores necessitatibus neque odit quisquam ratione rerum sequi unde veniam veritatis, voluptatem, voluptatibus. Amet, dicta?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid, architecto corporis enim eum exercitationem fugit harum iste laudantium maxime nam non ratione reiciendis repellendus repudiandae soluta, velit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem beatae, consequuntur dolores inventore laboriosam maiores necessitatibus neque odit
-                    <a href="#">quisquam</a>
-                    ratione rerum sequi unde veniam veritatis, voluptatem, voluptatibus. Amet, dicta?
-                </p>
-            </div>
-            <!-- Post-Social-Media -->
-            <div class="post-share-wrapper u-s-m-b-25">
-                <ul class="social-media-list">
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-google-plus-g"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fas fa-rss"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-pinterest"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Post-Social-Media /- -->
-            <!-- Post-Tags -->
-            <div class="post-tag u-s-m-b-25">
-                <h3>Tags:</h3>
-                <a href="blog.html" class="bl-tag u-s-m-b-8">Life</a>
-                <a href="blog.html" class="bl-tag u-s-m-b-8">World</a>
-            </div>
-            <!-- Post-Tags /- -->
-            <!-- Previous-Next -->
-            <div class="previous-next-wrapper u-s-m-b-25">
-                <div class="previous-container">
-                    <a href="blog-detail.html">
-                        <i class="fas fa-angle-left u-s-m-r-9"></i>Previous Post</a>
+    <!-- Store-Directory-Page -->
+    <div class="page-directory u-s-p-t-80">
+        <div class="container">
+            <!-- Men's Clothing Directory Wrapper  -->
+            <div class="directory-wrapper">
+                <h2>
+                    <a href="shop-v1-root-category.html">Men's Clothing</a>
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main" href="shop-v2-sub-category.html">Tops</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">T-Shirts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Hoodies</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Suits</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">Black Bean T-Shirt</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Outwear</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Jackets</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Trench</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Parkas</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Sweaters</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Accessories</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Watches</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Ties</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Scarves</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Belts</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="next-container">
-                    <a href="blog-detail.html">Next Post
-                        <i class="fas fa-angle-right u-s-m-l-9"></i>
-                    </a>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Bottoms</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Casual Pants</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Shoes</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Jeans</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Shorts</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Underwear</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Boxers</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Briefs</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Robes</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Socks</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Sunglasses</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Pilot</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Wayfarer</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Square</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Round</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <!-- Previous-Next /- -->
-            <!-- Post-Comments -->
-            <div class="blog-detail-comment u-s-m-b-50">
-                <h3 class="comment-title u-s-m-b-30">6 Comments on “Your Life is an extraordinary Adventure”</h3>
-                <ol class="comment-list">
-                    <li>
-                        <div class="comment-body">
-                            <div class="comment-author-image">
-                                <img src="images/blog/avatar.jpg" alt="avatar image">
-                            </div>
-                            <div class="comment-content">
-                                <h3>John Doe</h3>
-                                <h6>August 10, 2017 at 11:08 am</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta doloribus harum numquam provident quidem soluta. Commodi, repudiandae, voluptatem. Aliquid culpa dicta eius, esse perferendis placeat quam quas repellendus suscipit.</p>
-                                <a href="#">Reply</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="comment-reply">
-                        <div class="comment-body">
-                            <div class="comment-author-image">
-                                <img src="images/blog/avatar.jpg" alt="avatar image">
-                            </div>
-                            <div class="comment-content">
-                                <h3>Johnny Chen
-                                    <span>Replied to</span>John Doe</h3>
-                                <h6>August 10, 2017 at 11:08 am</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta doloribus harum numquam provident quidem soluta. Commodi, repudiandae, voluptatem. Aliquid culpa dicta eius, esse perferendis placeat quam quas repellendus suscipit.</p>
-                                <a href="#">Reply</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="comment-reply">
-                        <div class="comment-body">
-                            <div class="comment-author-image">
-                                <img src="images/blog/avatar.jpg" alt="avatar image">
-                            </div>
-                            <div class="comment-content">
-                                <h3>Rim Wu
-                                    <span>Replied to</span>Johnny Chen</h3>
-                                <h6>August 10, 2017 at 11:08 am</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta doloribus harum numquam provident quidem soluta. Commodi, repudiandae, voluptatem. Aliquid culpa dicta eius, esse perferendis placeat quam quas repellendus suscipit.</p>
-                                <a href="#">Reply</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="comment-body">
-                            <div class="comment-author-image">
-                                <img src="images/blog/avatar.jpg" alt="avatar image">
-                            </div>
-                            <div class="comment-content">
-                                <h3>Tim Doe</h3>
-                                <h6>August 10, 2017 at 11:08 am</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. autem dicta doloribus harum numquam provident quidem soluta. commodi, repudiandae, voluptatem. aliquid culpa dicta eius, esse perferendis placeat quam quas repellendus suscipit.</p>
-                                <a href="#">Reply</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="comment-body">
-                            <div class="comment-author-image">
-                                <img src="images/blog/avatar.jpg" alt="avatar image">
-                            </div>
-                            <div class="comment-content">
-                                <h3>Kim Doe</h3>
-                                <h6>August 10, 2017 at 11:08 am</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta doloribus harum numquam provident quidem soluta. Commodi, repudiandae, voluptatem. Aliquid culpa dicta eius, esse perferendis placeat quam quas repellendus suscipit.</p>
-                                <a href="#">Reply</a>
-                            </div>
-                        </div>
-                    </li>
-                </ol>
+            <!-- Men's Clothing Directory Wrapper /-  -->
+            <!-- Women's Clothing Directory Wrapper  -->
+            <div class="directory-wrapper">
+                <h2>
+                    <a href="shop-v1-root-category.html">Women's Clothing</a>
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Tops</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Dresses</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Blouses & Shirts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">T-shirts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Sweater</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Intimates</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Bras</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Brief Sets</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Bustiers & Corsets</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Panties</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Wedding & Events</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Wedding Dresses</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Evening Dresses</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Prom Dresses</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Flower Dresses</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Bottoms</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Skirts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Shorts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Leggings</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Jeans</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Outwear & Jackets</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Blazers</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Basics Jackets</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Trench</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Leather & Suede</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Accessories</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Sunglasses</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Headwear</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Baseball Caps</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Belts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <!-- Post-Comments /- -->
-            <!-- Post-Comment-Form -->
-            <div class="blog-detail-post-comment u-s-m-b-25">
-                <h3>Type Your Comment</h3>
-                <span>Your email address will not be published. Required fields are marked *</span>
-                <form>
-                    <div class="u-s-m-b-30">
-                        <label for="your-comment">Comment</label>
-                        <textarea class="text-area" id="your-comment"></textarea>
+            <!-- Women's Clothing Directory Wrapper /-  -->
+            <!-- Toys Hobbies & Robots  -->
+            <div class="directory-wrapper">
+                <h2>
+                    <a href="shop-v1-root-category.html">RC Toys & Hobbies</a>
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">RC Toys & Hobbies</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Helicopter</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Quadcopters</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Airplane</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Car</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Boat</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Multi Rotor Parts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">FPV System</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Radios & Receiver</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Battery & Charger</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Connector & Cable & Wire</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Tools & Bags & Storage</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Helicopter Parts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Quadcopter Parts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Airplane Parts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Car Parts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">RC Boat Parts</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="u-s-m-b-30">
-                        <label for="comment-name">Name
-                            <span class="astk">*</span>
-                        </label>
-                        <input type="text" id="comment-name" class="text-field">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Learning & Education</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Developmental Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Board Game Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Paper Art & Drawing</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Jigsaw & Puzzle Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Plane & Parachute Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Science & Discovery Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Pottery Clay & Tools</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html" class="dir-list-main">Dolls & Stuffed Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Squishy Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Doll House & Miniature</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Dolls & Action Figure</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Stuffed & Plush Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Other Stuffed Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html" class="dir-list-main">Model & Building Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Track Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Blocks Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Model Building</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Diecasts & Model Toys</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="u-s-m-b-30">
-                        <label for="comment-email">Email
-                            <span class="astk">*</span>
-                        </label>
-                        <input type="text" id="comment-email" class="text-field">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html" class="dir-list-main">Musical Instruments</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Guitar</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Guitar Parts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Brass & Woodwind</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Wind Instrument Parts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Violin</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Violin Parts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Ocarina</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Harmonica</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Keyboards & Piano</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Drums & Percussion</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Pro Audio Equipment</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Pro Audio Equipment Parts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Music Box</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Education Musical Instruments</a>
+                            </li>
+                            <li>
+                                <a class="dir-list-main">Solar Energy</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Solar Powered Toy</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Solar Powered System</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="u-s-m-b-30">
-                        <label for="comment-website">Website</label>
-                        <input type="text" id="comment-website" class="text-field">
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">RC Robot</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Robot Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Robot Arm & Tank</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Smart Robot Car</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Robot Parts & Tools</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">DIY Education Robot</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="u-s-m-b-30">
-                        <button class="button button-outline-secondary w-100">Post Comment</button>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Gadget Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Novelties</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Stress Relievers</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Magic & Trick Props</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Accessories for Nerf</a>
+                            </li>
+                        </ul>
                     </div>
-                </form>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Classic & Retro Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Wind-up & Tin Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Yoyo & Gyro Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Inflatable Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Magnetic Toys</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Beach Play</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <!-- Post-Comment-Form /- -->
+            <!-- Toys Hobbies & Robots /- -->
+            <!-- Mobiles & Tablets Directory Wrapper  -->
+            <div class="directory-wrapper">
+                <h2>
+                    <a>Mobiles & Tablets</a>
+                </h2>
+                <div class="dir-sub-wrapper">
+                    <div class="dir-sub-heading">
+                        <a>Smart Phones</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <ul class="dir-list-wrap">
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Samsung</a>
+                                </li>
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Xiaomi</a>
+                                </li>
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Huawei</a>
+                                </li>
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Honor</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <ul class="dir-list-wrap">
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Infinix</a>
+                                </li>
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">OnePlus</a>
+                                </li>
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Lenovo</a>
+                                </li>
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Apple</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <ul class="dir-list-wrap">
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Google</a>
+                                </li>
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Moto</a>
+                                </li>
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Oppo</a>
+                                </li>
+                                <li>
+                                    <a href="shop-v4-filter-as-category.html">Microsoft</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dir-remain-categories">
+                    <div class="dir-remain-heading">Other Categories</div>
+                    <ul class="dir-list-wrap">
+                        <li>
+                            <a href="shop-v3-sub-sub-category.html">Tablets</a>
+                        </li>
+                        <li>
+                            <a href="shop-v3-sub-sub-category.html">Smart Watches</a>
+                        </li>
+                        <li>
+                            <a href="shop-v3-sub-sub-category.html">Device Accessories</a>
+                        </li>
+                        <li>
+                            <a href="shop-v3-sub-sub-category.html">Power Banks</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Mobiles & Tablets Directory Wrapper /- -->
+            <!-- Consumer Electronics Directory Wrapper  -->
+            <div class="directory-wrapper">
+                <h2>
+                    <a>Consumer Electronics</a>
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Laptops</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Notebooks</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Macbooks</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Refurbished Laptops</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Tablet PCs</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Mini & Netbooks</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">PC & Accessories</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Batteries & Chargers</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Internal Hard Drives</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Adapters</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Graphic Card</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">TV's</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">20 - 29 inches</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">30 - 39 inches</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">40 - 49 inches</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">50 inches and more</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Camera & Camcorders</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">DSLR & Hybrid Cameras</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Compact Cameras</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Security & Surveillance</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Bundle Offers</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Audio & Amplifiers</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">MP3 Players</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Headphones & Headsets</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Portable Speakers</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Home Theater</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Hi-Fi & Stereo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Consumer Electronics Directory Wrapper /- -->
+            <!-- Books & Audible Directory Wrapper -->
+            <div class="directory-wrapper">
+                <h2>
+                    <a>Books & Audible</a>
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v1-root-category.html" class="dir-list-main">Fiction & Literature</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">Fiction</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">Graphic Novels & Comics</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">Literature</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">Manga</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">Mystery & Crime</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">Poetry</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">Romance</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">Science Fiction & Fantasy</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">Thrillers</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">Westerns</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Kids & Teens</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">Ages 0-2</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">Ages 3-5</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">Ages 6-8</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">Ages 9-12</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">Teens</a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">All Kids' Books</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Nonfiction</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Activity & Game Books</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Antiques & Collectibles</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Art, Architecture & Photography</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Bibles & Christianity</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Biography</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Business Books</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Nonfiction</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Computers</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Cookbooks, Food & Wine</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Crafts & Hobbies</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Current Affairs & Politics</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Diet, Health & Fitness</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Education</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Engineering</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Foreign Languages</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Nonfiction</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">History</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Home & Garden</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Humor</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Law</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Medicine & Nursing Books</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Music, Film & Performing Arts</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Nature</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">New Age & Alternative Beliefs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Nonfiction</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Parenting & Family</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Pets</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Philosophy</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Psychology</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Reference</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Religion</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Role-Playing & Fantasy Games</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Science & Technology</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Books & Audible Directory Wrapper /- -->
+            <!-- Beauty & Health Directory Wrapper -->
+            <div class="directory-wrapper">
+                <h2>
+                    <a>Beauty & Health</a>
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Make up</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Lips</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Face</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Eyes</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Accessories</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Skin Care</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Face Moisturizer, Creams & Lotions</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Face Wash & Scrubs</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Face Treatments</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Eye Treatments</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Face Masks & Packs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Personal Care</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Hair Removal Tools</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Massage & Relaxation</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Oral Care</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Hair Care</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Hair Styling Tools</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Hair Care Treatments</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Shampoo</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Conditioner & Deep Conditioners</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Health Care</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Medical Equipments</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Sexual Health</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">OTC's Medicines</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Vitamins & Supplements</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Fragrances</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">For Men</a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">For Women</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Beauty & Health Directory Wrapper /- -->
+            <!-- Furniture Home & Office Directory Wrapper -->
+            <div class="directory-wrapper">
+                <h2>
+                    <a>Furniture Home & Office</a>
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v2-sub-category.html" class="dir-list-main">Furniture</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Living Room Furniture</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Office Furniture</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Bedroom Furniture</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Kitchen & Dining Furniture</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Outdoor Furniture</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html" class="dir-list-main">Bedding</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Bed Linen</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Blankets & Quilt Sets</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Home Decor</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Clocks</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Wall Art</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Candles & Candle Holders</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Picture Frames</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Curtain, Blinds & Shades</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Kitchen & Dinning</a>
+                            </li>
+                            <li>
+                                <a>Kitchen Tools & Accessories</a>
+                            </li>
+                            <li>
+                                <a>Tableware</a>
+                            </li>
+                            <li>
+                                <a>Cookware</a>
+                            </li>
+                            <li>
+                                <a>Bakeware</a>
+                            </li>
+                            <li>
+                                <a>Grilling and BBQ Utensils</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a class="dir-list-main">Household Supplies</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Brooms, Floor Brushes & Dustpans</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Mops, Refills & Mop sets</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Sponges & Cleaning Cloths</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Pegs & Clothes Lines</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Housekeeping Dusters</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <ul class="dir-list-wrap">
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html" class="dir-list-main">Bath</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Towels, Robes & Mats</a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Bathroom Accessories</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Furniture Home & Office Directory Wrapper /- -->
         </div>
     </div>
-    <!-- Blog-Detail-Page /- -->
+    <!-- Store-Directory-Page /- -->
     <!-- Footer -->
     <footer class="footer">
         <div class="container">

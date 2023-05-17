@@ -11,30 +11,29 @@ $route['translate_uri_dashes'] = FALSE;
 $route['u_home'] = 'UserController/home';
 $route['u_about'] = 'UserController/about';
 $route['u_account'] = 'UserController/account';
-$route['u_blog-detail'] = 'UserController/blog-detail';
 $route['u_blog'] = 'UserController/blog';
-$route['u_cart-empty'] = 'UserController/cart-empty';
 $route['u_cart'] = 'UserController/cart';
 $route['u_checkout'] = 'UserController/checkout';
-$route['u_confirmation'] = 'UserController/confirmation';
 $route['u_contact'] = 'UserController/contact';
-$route['u_custom-deal-page'] = 'UserController/custom-deal-page';
 $route['u_faq'] = 'UserController/faq';
-$route['u_home-html'] = 'UserController/home-html';
-$route['u_lost-password'] = 'UserController/lost-password';
-$route['u_shop-v1-root-category copy'] = 'UserController/shop-v1-root-category copy';
-$route['u_shop-v1-root-category'] = 'UserController/shop-v1-root-category';
-$route['u_shop-v2-sub-category'] = 'UserController/shop-v2-sub-category';
-$route['u_shop-v3-sub-sub-category'] = 'UserController/shop-v3-sub-sub-category';
-$route['u_shop-v4-filter-as-category'] = 'UserController/shop-v4-filter-as-category';
-$route['u_shop-v5-product-not-found'] = 'UserController/shop-v5-product-not-found';
-$route['u_shop-v6-search-results'] = 'UserController/shop-v6-search-results';
-$route['u_single-product'] = 'UserController/single-product';
-$route['u_store-directory'] = 'UserController/store-directory';
-$route['u_terms-and-conditions'] = 'UserController/terms-and-conditions';
-$route['u_track-order'] = 'UserController/track-order';
-$route['u_wishlist-empty'] = 'UserController/wishlist-empty';
 $route['u_wishlist'] = 'UserController/wishlist';
+$route['u_cartEmpty'] = 'UserController/cartEmpty';
+$route['u_customDealPage'] = 'UserController/customDealPage';
+$route['u_lostPassword'] = 'UserController/lostPassword';
+$route['u_shopv1RootCategory'] = 'UserController/shopv1RootCategory';
+$route['u_shopv1RootCategoryCopy'] = 'UserController/shopv1RootCategoryCopy';
+$route['u_shopv2SubCategory'] = 'UserController/shopv2SubCategory';
+$route['u_shopv3SubSubCategory'] = 'UserController/shopv3SubSubCategory';
+$route['u_shopv4FilterAsCategory'] = 'UserController/shopv4FilterAsCategory';
+$route['u_shopv5ProductNotFound'] = 'UserController/shopv5ProductNotFound';
+$route['u_shopv6SearchResults'] = 'UserController/shopv6SearchResults';
+$route['u_singleProduct'] = 'UserController/singleProduct';
+$route['u_storeDirectory'] = 'UserController/storeDirectory';
+$route['u_termsAndConditions'] = 'UserController/termsAndConditions';
+$route['u_trackOrder'] = 'UserController/trackOrder';
+$route['u_wishlistEmpty'] = 'UserController/wishlistEmpty';
+$route['u_blogDetail'] = 'UserController/blogDetail';
+
 
 
 
@@ -55,30 +54,10 @@ $route['u_wishlist'] = 'UserController/wishlist';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
+
+
+
 
 
 

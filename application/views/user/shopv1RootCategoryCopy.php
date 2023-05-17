@@ -1,122 +1,14 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en-US">
 
-<head>
-    <meta charset="UTF-8">
-    <!--[if IE]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Groover - Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more</title>
-    <!-- Standard Favicon -->
-    <link href="favicon.ico" rel="shortcut icon">
-    <!-- Base Google Font for Web-app -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <!-- Google Fonts for Banners only -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
-    <!-- Bootstrap 4 -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Font Awesome 5 -->
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <!-- Ion-Icons 4 -->
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Owl-Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!-- Jquery-Ui-Range-Slider -->
-    <link rel="stylesheet" href="css/jquery-ui-range-slider.min.css">
-    <!-- Utility -->
-    <link rel="stylesheet" href="css/utility.css">
-    <!-- Main -->
-    <link rel="stylesheet" href="css/bundle.css">
-</head>
 
-<body>
+<?php $this->load->view('user/includes/headStyleCss'); ?>
+
+
+
 
 <!-- app -->
 <div id="app">
     <!-- Header -->
-    <header>
-        <!-- Top-Header -->
-        <div class="full-layer-outer-header">
-            <div class="container clearfix">
-                <nav>
-                    <ul class="primary-nav g-nav">
-                        <li>
-                            <a href="tel:+111444989">
-                                <i class="fas fa-phone u-c-brand u-s-m-r-9"></i>
-                                Telephone:+111-444-989</a>
-                        </li>
-                        <li>
-                            <a href="mailto:contact@domain.com">
-                                <i class="fas fa-envelope u-c-brand u-s-m-r-9"></i>
-                                E-mail: contact@domain.com
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <nav>
-                    <ul class="secondary-nav g-nav">
-                        <li>
-                            <a>My Account
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:200px">
-                                <li>
-                                    <a href="cart.html">
-                                        <i class="fas fa-cog u-s-m-r-9"></i>
-                                        My Cart</a>
-                                </li>
-                                <li>
-                                    <a href="wishlist.html">
-                                        <i class="far fa-heart u-s-m-r-9"></i>
-                                        My Wishlist</a>
-                                </li>
-                                <li>
-                                    <a href="checkout.html">
-                                        <i class="far fa-check-circle u-s-m-r-9"></i>
-                                        Checkout</a>
-                                </li>
-                                <li>
-                                    <a href="account.html">
-                                        <i class="fas fa-sign-in-alt u-s-m-r-9"></i>
-                                        Login / Signup</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a>USD
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:90px">
-                                <li>
-                                    <a href="#" class="u-c-brand">($) USD</a>
-                                </li>
-                                <li>
-                                    <a href="#">(£) GBP</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a>ENG
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:70px">
-                                <li>
-                                    <a href="#" class="u-c-brand">ENG</a>
-                                </li>
-                                <li>
-                                    <a href="#">ARB</a>
-                                </li>
-                            </ul>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <!-- Top-Header /- -->
+    <?php $this->load->view('user/includes/headerTopStyle'); ?>
         <!-- Mid-Header -->
         <div class="full-layer-mid-header">
             <div class="container">
@@ -785,7 +677,7 @@
                                     <ul>
                                         <li class="menu-title">Shop Variations</li>
                                         <li>
-                                            <a href="shop-v1-root-category.html">Shop Ver 1 Root Category</a>
+                                            <a href="shop-v1-root-category.html" class="u-c-brand">Shop Ver 1 Root Category</a>
                                         </li>
                                         <li>
                                             <a href="shop-v2-sub-category.html">Shop Ver 2 Sub Category</a>
@@ -794,7 +686,7 @@
                                             <a href="shop-v3-sub-sub-category.html">Shop Ver 3 Sub Sub Category</a>
                                         </li>
                                         <li>
-                                            <a href="shop-v4-filter-as-category.html" class="u-c-brand">Shop Ver 4 Filter as Category</a>
+                                            <a href="shop-v4-filter-as-category.html">Shop Ver 4 Filter as Category</a>
                                         </li>
                                         <li>
                                             <a href="shop-v5-product-not-found.html">Shop Ver 5 Product Not Found</a>
@@ -841,7 +733,7 @@
                         <a href="home.html">Home</a>
                     </li>
                     <li class="is-marked">
-                        <a href="shop-v4-filter-as-category.html">Shop</a>
+                        <a href="shop-v1-root-category.html">Shop</a>
                     </li>
                 </ul>
             </div>
@@ -853,20 +745,7 @@
         <div class="container">
             <!-- Shop-Intro -->
             <div class="shop-intro">
-                <ul class="bread-crumb">
-                    <li class="has-separator">
-                        <a href="home.html">Home</a>
-                    </li>
-                    <li class="has-separator">
-                        <a href="shop-v1-root-category.html">Men's Clothing</a>
-                    </li>
-                    <li class="has-colon">
-                        <a href="shop-v3-sub-sub-category.html">Tops</a>
-                    </li>
-                    <li class="is-marked">
-                        <a href="shop-v4-filter-as-category.html">Black Bean T-Shirt</a>
-                    </li>
-                </ul>
+                <h3>Men's Clothing</h3>
             </div>
             <!-- Shop-Intro /- -->
             <div class="row">
@@ -875,224 +754,194 @@
                     <!-- Fetch-Categories-from-Root-Category  -->
                     <div class="fetch-categories">
                         <h3 class="title-name">Browse Categories</h3>
-                        <h3 class="fetch-mark-category yes-single">
-                            <a href="shop-v4-filter-as-category.html">Black Bean T-Shirt
+                        <!-- Level-2 -->
+                        <h3 class="fetch-mark-category">
+                            <a href="shop-v2-sub-category.html">Tops
+                                <span class="total-fetch-items">(5)</span>
+                            </a>
+                        </h3>
+                        <!-- Level-2 /- -->
+                        <!-- Level-3 -->
+                        <ul>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">T-Shirts
+                                    <span class="total-fetch-items">(2)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Hoodies
+                                    <span class="total-fetch-items">(1)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Suits
+                                    <span class="total-fetch-items">(1)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v4-filter-as-category.html">Black Bean T-Shirt
+                                    <span class="total-fetch-items">(1)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Level-3 /- -->
+                        <!-- Level-2 -->
+                        <h3 class="fetch-mark-category">
+                            <a href="shop-v2-sub-category.html">Outwear
+                                <span class="total-fetch-items">(3)</span>
+                            </a>
+                        </h3>
+                        <!-- Level-2 /- -->
+                        <!-- Level-3 -->
+                        <ul>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Jackets
+                                    <span class="total-fetch-items">(3)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Trench
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Parkas
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Sweaters
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Level-3 /- -->
+                        <!-- Level-2 -->
+                        <h3 class="fetch-mark-category">
+                            <a href="shop-v2-sub-category.html">Accessories
                                 <span class="total-fetch-items">(1)</span>
                             </a>
                         </h3>
+                        <!-- Level-2 /- -->
+                        <!-- Level-3 -->
+                        <ul>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Watches
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v2-sub-category.html">Ties
+                                    <span class="total-fetch-items">(1)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Scarves
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Belts
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Level-3 /- -->
+                        <!-- Level-2 -->
+                        <h3 class="fetch-mark-category">
+                            <a href="shop-v2-sub-category.html">Bottoms
+                                <span class="total-fetch-items">(2)</span>
+                            </a>
+                        </h3>
+                        <!-- Level-2 /- -->
+                        <!-- Level-3 -->
+                        <ul>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Casual Pants
+                                    <span class="total-fetch-items">(2)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Shoes
+                                    <span class="total-fetch-items">(1)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Jeans
+                                    <span class="total-fetch-items">(1)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Shorts
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Level-3 /- -->
+                        <!-- Level-2 -->
+                        <h3 class="fetch-mark-category">
+                            <a href="shop-v2-sub-category.html">Underwear
+                                <span class="total-fetch-items">(0)</span>
+                            </a>
+                        </h3>
+                        <!-- Level-2 /- -->
+                        <!-- Level-3 -->
+                        <ul>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Boxers
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Briefs
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Robes
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Socks
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Level-3 /- -->
+                        <!-- Level-2 -->
+                        <h3 class="fetch-mark-category">
+                            <a href="shop-v2-sub-category.html">Sunglasses
+                                <span class="total-fetch-items">(2)</span>
+                            </a>
+                        </h3>
+                        <!-- Level-2 /- -->
+                        <!-- Level-3 -->
+                        <ul>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Pilot
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Wayfarer
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Square
+                                    <span class="total-fetch-items">(0)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop-v3-sub-sub-category.html">Round
+                                    <span class="total-fetch-items">(2)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Level-3 /- -->
                     </div>
                     <!-- Fetch-Categories-from-Root-Category  /- -->
-                    <!-- Filters -->
-                    <!-- Filter-Size -->
-                    <div class="facet-filter-associates">
-                        <h3 class="title-name">Size</h3>
-                        <form class="facet-form" action="#" method="post">
-                            <div class="associate-wrapper">
-                                <input type="checkbox" class="check-box" id="cbs-01">
-                                <label class="label-text" for="cbs-01">Male 2XL
-                                    <span class="total-fetch-items">(2)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-02">
-                                <label class="label-text" for="cbs-02">Male 3XL
-                                    <span class="total-fetch-items">(2)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-03">
-                                <label class="label-text" for="cbs-03">Kids 4
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-04">
-                                <label class="label-text" for="cbs-04">Kids 6
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-05">
-                                <label class="label-text" for="cbs-05">Kids 8
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-06">
-                                <label class="label-text" for="cbs-06">Kids 10
-                                    <span class="total-fetch-items">(2)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-07">
-                                <label class="label-text" for="cbs-07">Kids 12
-                                    <span class="total-fetch-items">(2)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-08">
-                                <label class="label-text" for="cbs-08">Female Small
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-09">
-                                <label class="label-text" for="cbs-09">Male Small
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-10">
-                                <label class="label-text" for="cbs-10">Female Medium
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-11">
-                                <label class="label-text" for="cbs-11">Male Medium
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-12">
-                                <label class="label-text" for="cbs-12">Female Large
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-13">
-                                <label class="label-text" for="cbs-13">Male Large
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-14">
-                                <label class="label-text" for="cbs-14">Female XL
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-15">
-                                <label class="label-text" for="cbs-15">Male XL
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- Filter-Size -->
-                    <!-- Filter-Color -->
-                    <div class="facet-filter-associates">
-                        <h3 class="title-name">Color</h3>
-                        <form class="facet-form" action="#" method="post">
-                            <div class="associate-wrapper">
-                                <input type="checkbox" class="check-box" id="cbs-16">
-                                <label class="label-text" for="cbs-16">Heather Grey
-                                    <span class="total-fetch-items">(1)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-17">
-                                <label class="label-text" for="cbs-17">Black
-                                    <span class="total-fetch-items">(1)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-18">
-                                <label class="label-text" for="cbs-18">White
-                                    <span class="total-fetch-items">(3)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-19">
-                                <label class="label-text" for="cbs-19">Mischka Plain
-                                    <span class="total-fetch-items">(1)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-20" checked="checked">
-                                <label class="label-text" for="cbs-20">Black Bean
-                                    <span class="total-fetch-items">(1)</span>
-                                </label>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- Filter-Color /- -->
-                    <!-- Filter-Brand -->
-                    <div class="facet-filter-associates">
-                        <h3 class="title-name">Brand</h3>
-                        <form class="facet-form" action="#" method="post">
-                            <div class="associate-wrapper">
-                                <input type="checkbox" class="check-box" id="cbs-21">
-                                <label class="label-text" for="cbs-21">Calvin Klein
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-22">
-                                <label class="label-text" for="cbs-22">Diesel
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-23">
-                                <label class="label-text" for="cbs-23">Polo
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                                <input type="checkbox" class="check-box" id="cbs-24">
-                                <label class="label-text" for="cbs-24">Tommy Hilfiger
-                                    <span class="total-fetch-items">(0)</span>
-                                </label>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- Filter-Brand /- -->
-                    <!-- Filter-Price -->
-                    <div class="facet-filter-by-price">
-                        <h3 class="title-name">Price</h3>
-                        <form class="facet-form" action="#" method="post">
-                            <!-- Final-Result -->
-                            <div class="amount-result clearfix">
-                                <div class="price-from">$0</div>
-                                <div class="price-to">$3000</div>
-                            </div>
-                            <!-- Final-Result /- -->
-                            <!-- Range-Slider  -->
-                            <div class="price-filter"></div>
-                            <!-- Range-Slider /- -->
-                            <!-- Range-Manipulator -->
-                            <div class="price-slider-range" data-min="0" data-max="5000" data-default-low="0" data-default-high="3000" data-currency="$"></div>
-                            <!-- Range-Manipulator /- -->
-                            <button type="submit" class="button button-primary">Filter</button>
-                        </form>
-                    </div>
-                    <!-- Filter-Price /- -->
-                    <!-- Filter-Free-Shipping -->
-                    <div class="facet-filter-by-shipping">
-                        <h3 class="title-name">Shipping</h3>
-                        <form class="facet-form" action="#" method="post">
-                            <input type="checkbox" class="check-box" id="cb-free-ship">
-                            <label class="label-text" for="cb-free-ship">Free Shipping</label>
-                        </form>
-                    </div>
-                    <!-- Filter-Free-Shipping /- -->
-                    <!-- Filter-Rating -->
-                    <div class="facet-filter-by-rating">
-                        <h3 class="title-name">Rating</h3>
-                        <div class="facet-form">
-                            <!-- 5 Stars -->
-                            <div class="facet-link">
-                                <div class="item-stars">
-                                    <div class='star'>
-                                        <span style='width:76px'></span>
-                                    </div>
-                                </div>
-                                <span class="total-fetch-items">(0)</span>
-                            </div>
-                            <!-- 5 Stars /- -->
-                            <!-- 4 & Up Stars -->
-                            <div class="facet-link">
-                                <div class="item-stars">
-                                    <div class='star'>
-                                        <span style='width:60px'></span>
-                                    </div>
-                                </div>
-                                <span class="total-fetch-items">& Up (1)</span>
-                            </div>
-                            <!-- 4 & Up Stars /- -->
-                            <!-- 3 & Up Stars -->
-                            <div class="facet-link">
-                                <div class="item-stars">
-                                    <div class='star'>
-                                        <span style='width:45px'></span>
-                                    </div>
-                                </div>
-                                <span class="total-fetch-items">& Up (0)</span>
-                            </div>
-                            <!-- 3 & Up Stars /- -->
-                            <!-- 2 & Up Stars -->
-                            <div class="facet-link">
-                                <div class="item-stars">
-                                    <div class='star'>
-                                        <span style='width:30px'></span>
-                                    </div>
-                                </div>
-                                <span class="total-fetch-items">& Up (0)</span>
-                            </div>
-                            <!-- 2 & Up Stars /- -->
-                            <!-- 1 & Up Stars -->
-                            <div class="facet-link">
-                                <div class="item-stars">
-                                    <div class='star'>
-                                        <span style='width:15px'></span>
-                                    </div>
-                                </div>
-                                <span class="total-fetch-items">& Up (0)</span>
-                            </div>
-                            <!-- 1 & Up Stars /- -->
-                        </div>
-                    </div>
-                    <!-- Filter-Rating -->
-                    <!-- Filters /- -->
                 </div>
                 <!-- Shop-Left-Side-Bar-Wrapper /- -->
                 <!-- Shop-Right-Wrapper -->
@@ -1160,6 +1009,110 @@
                                                 <a href="shop-v2-sub-category.html">Tops</a>
                                             </li>
                                             <li>
+                                                <a href="shop-v3-sub-sub-category.html">Hoodies</a>
+                                            </li>
+                                        </ul>
+                                        <h6 class="item-title">
+                                            <a href="single-product.html">Casual Hoodie Full Cotton</a>
+                                        </h6>
+                                        <div class="item-description">
+                                            <p>This hoodie is full cotton. It includes a muff sewn onto the lower front, and (usually) a drawstring to adjust the hood opening. Throughout the U.S., it is common for middle-school, high-school, and college students to wear this sweatshirts—with or without hoods—that display their respective school names or mascots across the chest, either as part of a uniform or personal preference.
+                                            </p>
+                                        </div>
+                                        <div class="item-stars">
+                                            <div class='star' title="4.5 out of 5 - based on 23 Reviews">
+                                                <span style='width:67px'></span>
+                                            </div>
+                                            <span>(23)</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-template">
+                                        <div class="item-new-price">
+                                            $55.00
+                                        </div>
+                                        <div class="item-old-price">
+                                            $60.00
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tag new">
+                                    <span>NEW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-lg-4 col-md-6 col-sm-6">
+                            <div class="item">
+                                <div class="image-container">
+                                    <a class="item-img-wrapper-link" href="single-product.html">
+                                        <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                    </a>
+                                    <div class="item-action-behaviors">
+                                        <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
+                                        <a class="item-mail" href="javascript:void(0)">Mail</a>
+                                        <a class="item-addwishlist" href="javascript:void(0)">Add to Wishlist</a>
+                                        <a class="item-addCart" href="javascript:void(0)">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="what-product-is">
+                                        <ul class="bread-crumb">
+                                            <li class="has-separator">
+                                                <a href="shop-v1-root-category.html">Men's</a>
+                                            </li>
+                                            <li class="has-separator">
+                                                <a href="shop-v2-sub-category.html">Tops</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-v3-sub-sub-category.html">T-Shirts</a>
+                                            </li>
+                                        </ul>
+                                        <h6 class="item-title">
+                                            <a href="single-product.html">Mischka Plain Men T-Shirt</a>
+                                        </h6>
+                                        <div class="item-description">
+                                            <p>T-shirts with bold slogans were popular in the UK in the 1980s. T-shirts were originally worn as undershirts, but are now worn frequently as the only piece of clothing on the top half of the body, other than possibly a brassiere or, rarely, a waistcoat (vest). T-shirts have also become a medium for self-expression and advertising, with any imaginable combination of words, art and photographs on display.</p>
+                                        </div>
+                                        <div class="item-stars">
+                                            <div class='star' title="4.5 out of 5 - based on 23 Reviews">
+                                                <span style='width:67px'></span>
+                                            </div>
+                                            <span>(23)</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-template">
+                                        <div class="item-new-price">
+                                            $55.00
+                                        </div>
+                                        <div class="item-old-price">
+                                            $60.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-lg-4 col-md-6 col-sm-6">
+                            <div class="item">
+                                <div class="image-container">
+                                    <a class="item-img-wrapper-link" href="single-product.html">
+                                        <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                    </a>
+                                    <div class="item-action-behaviors">
+                                        <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
+                                        <a class="item-mail" href="javascript:void(0)">Mail</a>
+                                        <a class="item-addwishlist" href="javascript:void(0)">Add to Wishlist</a>
+                                        <a class="item-addCart" href="javascript:void(0)">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="what-product-is">
+                                        <ul class="bread-crumb">
+                                            <li class="has-separator">
+                                                <a href="shop-v1-root-category.html">Men's</a>
+                                            </li>
+                                            <li class="has-separator">
+                                                <a href="shop-v2-sub-category.html">Tops</a>
+                                            </li>
+                                            <li>
                                                 <a href="shop-v4-filter-as-category.html">T-Shirts</a>
                                             </li>
                                         </ul>
@@ -1187,10 +1140,305 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="product-item col-lg-4 col-md-6 col-sm-6">
+                            <div class="item">
+                                <div class="image-container">
+                                    <a class="item-img-wrapper-link" href="single-product.html">
+                                        <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                    </a>
+                                    <div class="item-action-behaviors">
+                                        <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
+                                        <a class="item-mail" href="javascript:void(0)">Mail</a>
+                                        <a class="item-addwishlist" href="javascript:void(0)">Add to Wishlist</a>
+                                        <a class="item-addCart" href="javascript:void(0)">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="what-product-is">
+                                        <ul class="bread-crumb">
+                                            <li class="has-separator">
+                                                <a href="shop-v1-root-category.html">Men's</a>
+                                            </li>
+                                            <li class="has-separator">
+                                                <a href="shop-v2-sub-category.html">Bottoms</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-v3-sub-sub-category.html">Jeans</a>
+                                            </li>
+                                        </ul>
+                                        <h6 class="item-title">
+                                            <a href="single-product.html">Regular Rock Blue Men Jean</a>
+                                        </h6>
+                                        <div class="item-description">
+                                            <p>Traditionally, jeans were dyed to a blue color using natural indigo dye. Most denim is now dyed using synthetic indigo. Approximately 20 thousand tons of indigo are produced annually for this purpose, though only a few grams of the dye are required for each pair. For other colors of denim other dyes must be used. Currently, jeans are produced in any color that can be achieved with cotton.
+                                            </p>
+                                        </div>
+                                        <div class="item-stars">
+                                            <div class='star' title="4.5 out of 5 - based on 23 Reviews">
+                                                <span style='width:67px'></span>
+                                            </div>
+                                            <span>(23)</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-template">
+                                        <div class="item-new-price">
+                                            $55.00
+                                        </div>
+                                        <div class="item-old-price">
+                                            $60.00
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tag new">
+                                    <span>NEW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-lg-4 col-md-6 col-sm-6">
+                            <div class="item">
+                                <div class="image-container">
+                                    <a class="item-img-wrapper-link" href="single-product.html">
+                                        <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                    </a>
+                                    <div class="item-action-behaviors">
+                                        <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
+                                        <a class="item-mail" href="javascript:void(0)">Mail</a>
+                                        <a class="item-addwishlist" href="javascript:void(0)">Add to Wishlist</a>
+                                        <a class="item-addCart" href="javascript:void(0)">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="what-product-is">
+                                        <ul class="bread-crumb">
+                                            <li class="has-separator">
+                                                <a href="shop-v1-root-category.html">Men's</a>
+                                            </li>
+                                            <li class="has-separator">
+                                                <a href="shop-v2-sub-category.html">Tops</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-v3-sub-sub-category.html">Suits</a>
+                                            </li>
+                                        </ul>
+                                        <h6 class="item-title">
+                                            <a href="single-product.html">Black Maire Full Men Suit</a>
+                                        </h6>
+                                        <div class="item-description">
+                                            <p>British dandy Beau Brummell redefined and adapted this style, then popularised it, leading European men to wearing well-cut, tailored clothes, adorned with carefully knotted neckties. The simplicity of the new clothes and their sombre colours contrasted strongly with the extravagant, foppish styles just before. Brummell's influence introduced the modern era of men's clothing which now includes the modern suit and necktie.</p>
+                                        </div>
+                                        <div class="item-stars">
+                                            <div class='star' title="4.5 out of 5 - based on 23 Reviews">
+                                                <span style='width:67px'></span>
+                                            </div>
+                                            <span>(23)</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-template">
+                                        <div class="item-new-price">
+                                            $55.00
+                                        </div>
+                                        <div class="item-old-price">
+                                            $60.00
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tag sale">
+                                    <span>SALE</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-lg-4 col-md-6 col-sm-6">
+                            <div class="item">
+                                <div class="image-container">
+                                    <a class="item-img-wrapper-link" href="single-product.html">
+                                        <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                    </a>
+                                    <div class="item-action-behaviors">
+                                        <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
+                                        <a class="item-mail" href="javascript:void(0)">Mail</a>
+                                        <a class="item-addwishlist" href="javascript:void(0)">Add to Wishlist</a>
+                                        <a class="item-addCart" href="javascript:void(0)">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="what-product-is">
+                                        <ul class="bread-crumb">
+                                            <li class="has-separator">
+                                                <a href="shop-v1-root-category.html">Men's</a>
+                                            </li>
+                                            <li class="has-separator">
+                                                <a href="shop-v2-sub-category.html">Outwear</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-v3-sub-sub-category.html">Jackets</a>
+                                            </li>
+                                        </ul>
+                                        <h6 class="item-title">
+                                            <a href="single-product.html">Woodsmoke Rookie Parka Jacket</a>
+                                        </h6>
+                                        <div class="item-description">
+                                            <p>A parka or anorak is a type of coat with a hood, often lined with fur or faux fur. The Caribou Inuit invented this kind of garment, originally made from caribou or seal skin, for hunting and kayaking in the frigid Arctic. Some Inuit anoraks require regular coating with fish oil to retain their water resistance.</p>
+                                        </div>
+                                        <div class="item-stars">
+                                            <div class='star' title="4.5 out of 5 - based on 23 Reviews">
+                                                <span style='width:67px'></span>
+                                            </div>
+                                            <span>(23)</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-template">
+                                        <div class="item-new-price">
+                                            $55.00
+                                        </div>
+                                        <div class="item-old-price">
+                                            $60.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-lg-4 col-md-6 col-sm-6">
+                            <div class="item">
+                                <div class="image-container">
+                                    <a class="item-img-wrapper-link" href="single-product.html">
+                                        <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                    </a>
+                                    <div class="item-action-behaviors">
+                                        <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
+                                        <a class="item-mail" href="javascript:void(0)">Mail</a>
+                                        <a class="item-addwishlist" href="javascript:void(0)">Add to Wishlist</a>
+                                        <a class="item-addCart" href="javascript:void(0)">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="what-product-is">
+                                        <ul class="bread-crumb">
+                                            <li class="has-separator">
+                                                <a href="shop-v1-root-category.html">Men's</a>
+                                            </li>
+                                            <li class="has-separator">
+                                                <a href="shop-v2-sub-category.html">Accessories</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-v3-sub-sub-category.html">Ties</a>
+                                            </li>
+                                        </ul>
+                                        <h6 class="item-title">
+                                            <a href="single-product.html">Blue Zodiac Boxes Reg Tie
+                                            </a>
+                                        </h6>
+                                        <div class="item-description">
+                                            <p>A necktie, or simply a tie, is a long piece of cloth, worn usually by men, for decorative purposes around the neck, resting under the shirt collar and knotted at the throat.</p>
+                                        </div>
+                                        <div class="item-stars">
+                                            <div class='star' title="4.5 out of 5 - based on 23 Reviews">
+                                                <span style='width:67px'></span>
+                                            </div>
+                                            <span>(23)</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-template">
+                                        <div class="item-new-price">
+                                            $55.00
+                                        </div>
+                                        <div class="item-old-price">
+                                            $60.00
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item col-lg-4 col-md-6 col-sm-6">
+                            <div class="item">
+                                <div class="image-container">
+                                    <a class="item-img-wrapper-link" href="single-product.html">
+                                        <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                    </a>
+                                    <div class="item-action-behaviors">
+                                        <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
+                                        <a class="item-mail" href="javascript:void(0)">Mail</a>
+                                        <a class="item-addwishlist" href="javascript:void(0)">Add to Wishlist</a>
+                                        <a class="item-addCart" href="javascript:void(0)">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="what-product-is">
+                                        <ul class="bread-crumb">
+                                            <li class="has-separator">
+                                                <a href="shop-v1-root-category.html">Men's</a>
+                                            </li>
+                                            <li class="has-separator">
+                                                <a href="shop-v2-sub-category.html">Bottoms</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-v3-sub-sub-category.html">Shoes</a>
+                                            </li>
+                                        </ul>
+                                        <h6 class="item-title">
+                                            <a href="single-product.html">Zambezi Carved Leather Business Casual Shoes
+                                            </a>
+                                        </h6>
+                                        <div class="item-description">
+                                            <p>Dress shoes are characterized by smooth and supple leather uppers, leather soles, and narrow sleek figure. Casual shoes are characterized by sturdy leather uppers, non-leather outsoles, and wide profile. Some designs of dress shoes can be worn by either gender. The majority of dress shoes have an upper covering, commonly made of leather, enclosing most of the lower foot, but not covering the ankles.</p>
+                                        </div>
+                                        <div class="item-stars">
+                                            <div class='star' title="4.5 out of 5 - based on 23 Reviews">
+                                                <span style='width:67px'></span>
+                                            </div>
+                                            <span>(23)</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-template">
+                                        <div class="item-new-price">
+                                            $55.00
+                                        </div>
+                                        <div class="item-old-price">
+                                            $60.00
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tag discount">
+                                    <span>-15%</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <!-- Row-of-Product-Container /- -->
                 </div>
                 <!-- Shop-Right-Wrapper /- -->
+                <!-- Shop-Pagination -->
+                <div class="pagination-area">
+                    <div class="pagination-number">
+                        <ul>
+                            <li style="display: none">
+                                <a href="shop-v1-root-category.html" title="Previous">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="shop-v1-root-category.html">1</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">2</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">3</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">...</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html">10</a>
+                            </li>
+                            <li>
+                                <a href="shop-v1-root-category.html" title="Next">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Shop-Pagination /- -->
             </div>
         </div>
     </div>

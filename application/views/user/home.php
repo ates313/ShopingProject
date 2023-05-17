@@ -1,129 +1,21 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en-US">
 
-<head>
-    <meta charset="UTF-8">
-    <!--[if IE]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Groover - Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more</title>
-    <!-- Standard Favicon -->
-    <link href="favicon.ico" rel="shortcut icon">
-    <!-- Base Google Font for Web-app -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <!-- Google Fonts for Banners only -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
-    <!-- Bootstrap 4 -->
-    <link rel="stylesheet" href="<?php echo base_url('public/user/assets/'); ?>css/bootstrap.min.css">
-    <!-- Font Awesome 5 -->
-    <link rel="stylesheet" href="<?php echo base_url('public/user/assets/'); ?>css/fontawesome.min.css">
-    <!-- Ion-Icons 4 -->
-    <link rel="stylesheet" href="<?php echo base_url('public/user/assets/'); ?>css/ionicons.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="<?php echo base_url('public/user/assets/'); ?>css/animate.min.css">
-    <!-- Owl-Carousel -->
-    <link rel="stylesheet" href="<?php echo base_url('public/user/assets/'); ?>css/owl.carousel.min.css">
-    <!-- Jquery-Ui-Range-Slider -->
-    <link rel="stylesheet" href="<?php echo base_url('public/user/assets/'); ?>css/jquery-ui-range-slider.min.css">
-    <!-- Utility -->
-    <link rel="stylesheet" href="<?php echo base_url('public/user/assets/'); ?>css/utility.css">
-    <!-- Main -->
-    <link rel="stylesheet" href="<?php echo base_url('public/user/assets/'); ?>css/bundle.css">
-</head>
 
-<body>
+<?php $this->load->view('user/includes/headStyleCss'); ?>
+
+
 
 <!-- app -->
 <div id="app">
     <!-- Header -->
-    <header>
-        <!-- Top-Header -->
-        <div class="full-layer-outer-header">
-            <div class="container clearfix">
-                <nav>
-                    <ul class="primary-nav g-nav">
-                        <li>
-                            <a href="tel:+111444989">
-                                <i class="fas fa-phone u-c-brand u-s-m-r-9"></i>
-                                Telephone:+111-444-989</a>
-                        </li>
-                        <li>
-                            <a href="mailto:contact@domain.com">
-                                <i class="fas fa-envelope u-c-brand u-s-m-r-9"></i>
-                                E-mail: contact@domain.com
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <nav>
-                    <ul class="secondary-nav g-nav">
-                        <li>
-                            <a>My Account
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:200px">
-                                <li>
-                                    <a href="cart.html">
-                                        <i class="fas fa-cog u-s-m-r-9"></i>
-                                        My Cart</a>
-                                </li>
-                                <li>
-                                    <a href="wishlist.html">
-                                        <i class="far fa-heart u-s-m-r-9"></i>
-                                        My Wishlist</a>
-                                </li>
-                                <li>
-                                    <a href="checkout.html">
-                                        <i class="far fa-check-circle u-s-m-r-9"></i>
-                                        Checkout</a>
-                                </li>
-                                <li>
-                                    <a href="account.html">
-                                        <i class="fas fa-sign-in-alt u-s-m-r-9"></i>
-                                        Login / Signup</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a>USD
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:90px">
-                                <li>
-                                    <a href="#" class="u-c-brand">($) USD</a>
-                                </li>
-                                <li>
-                                    <a href="#">(£) GBP</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a>ENG
-                                <i class="fas fa-chevron-down u-s-m-l-9"></i>
-                            </a>
-                            <ul class="g-dropdown" style="width:70px">
-                                <li>
-                                    <a href="#" class="u-c-brand">ENG</a>
-                                </li>
-                                <li>
-                                    <a href="#">ARB</a>
-                                </li>
-                            </ul>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <!-- Top-Header /- -->
+    
+        <?php $this->load->view('user/includes/headerTopStyle'); ?>
         <!-- Mid-Header -->
         <div class="full-layer-mid-header">
             <div class="container">
                 <div class="row clearfix align-items-center">
                     <div class="col-lg-3 col-md-9 col-sm-6">
                         <div class="brand-logo text-lg-center">
-                            <a href="home.html">
+                            <a href="<?php echo base_url('u_home'); ?>">
                                 <img src="<?php echo base_url('public/user/assets/'); ?>images/main-logo/groover-branding-1.png" alt="Groover Brand Logo" class="app-brand-logo">
                             </a>
                         </div>
@@ -164,12 +56,12 @@
                         <nav>
                             <ul class="mid-nav g-nav">
                                 <li class="u-d-none-lg">
-                                    <a href="home.html">
+                                    <a href="<?php echo base_url('u_home'); ?>">
                                         <i class="ion ion-md-home u-c-brand"></i>
                                     </a>
                                 </li>
                                 <li class="u-d-none-lg">
-                                    <a href="wishlist.html">
+                                    <a href="<?php echo base_url('u_wishlist'); ?>">
                                         <i class="far fa-heart"></i>
                                     </a>
                                 </li>
@@ -193,7 +85,7 @@
                 <button type="button" class="button fas fa-search" id="responsive-search"></button>
             </div>
             <div class="fixed-responsive-wrapper">
-                <a href="wishlist.html">
+                <a href="<?php echo base_url('u_wishlist'); ?>">
                     <i class="far fa-heart"></i>
                     <span class="fixed-item-counter">4</span>
                 </a>
@@ -209,7 +101,7 @@
                 </div>
                 <ul class="mini-cart-list">
                     <li class="clearfix">
-                        <a href="single-product.html">
+                        <a href="<?php echo base_url('u_singleProduct'); ?>">
                             <img src="<?php echo base_url('public/user/assets/'); ?>images/product/product@1x.jpg" alt="Product">
                             <span class="mini-item-name">Casual Hoodie Full Cotton</span>
                             <span class="mini-item-price">$55.00</span>
@@ -217,7 +109,7 @@
                         </a>
                     </li>
                     <li class="clearfix">
-                        <a href="single-product.html">
+                        <a href="<?php echo base_url('u_singleProduct'); ?>">
                             <img src="<?php echo base_url('public/user/assets/'); ?>images/product/product@1x.jpg" alt="Product">
                             <span class="mini-item-name">Black Rock Dress with High Jewelery Necklace</span>
                             <span class="mini-item-price">$55.00</span>
@@ -225,7 +117,7 @@
                         </a>
                     </li>
                     <li class="clearfix">
-                        <a href="single-product.html">
+                        <a href="<?php echo base_url('u_singleProduct'); ?>">
                             <img src="<?php echo base_url('public/user/assets/'); ?>images/product/product@1x.jpg" alt="Product">
                             <span class="mini-item-name">Xiaomi Note 2 Black Color</span>
                             <span class="mini-item-price">$55.00</span>
@@ -233,7 +125,7 @@
                         </a>
                     </li>
                     <li class="clearfix">
-                        <a href="single-product.html">
+                        <a href="<?php echo base_url('u_singleProduct'); ?>">
                             <img src="<?php echo base_url('public/user/assets/'); ?>images/product/product@1x.jpg" alt="Product">
                             <span class="mini-item-name">Dell Inspiron 15</span>
                             <span class="mini-item-price">$55.00</span>
@@ -246,8 +138,8 @@
                     <span class="mini-total-price float-right">$220.00</span>
                 </div>
                 <div class="mini-action-anchors">
-                    <a href="cart.html" class="cart-anchor">View Cart</a>
-                    <a href="checkout.html" class="checkout-anchor">Checkout</a>
+                    <a href="<?php echo base_url("u_cart"); ?>" class="cart-anchor">View Cart</a>
+                    <a href="<?php echo base_url('u_checkout'); ?>" class="checkout-anchor">Checkout</a>
                 </div>
             </div>
         </div>
@@ -267,7 +159,7 @@
                                 <div class="v-wrapper">
                                     <ul class="v-list animated fadeIn">
                                         <li class="js-backdrop">
-                                            <a href="shop-v1-root-category.html">
+                                            <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">
                                                 <i class="ion ion-md-shirt"></i>
                                                 Men's Clothing
                                                 <i class="ion ion-ios-arrow-forward"></i>
@@ -278,19 +170,19 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Tops</a>
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">T-Shirts</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">T-Shirts</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Hoodies</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Hoodies</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Suits</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Suits</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v4-filter-as-category.html">Black Bean T-Shirt
+                                                                        <a href="<? echo base_url('u_shopv4FilterAsCategory'); ?>">Black Bean T-Shirt
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -300,19 +192,19 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Outwear</a>
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Outwear</a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Jackets</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Jackets</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Trench</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Trench</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Parkas</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Parkas</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Sweaters</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Sweaters</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -321,19 +213,19 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v1-root-category.html">Accessories</a>
+                                                                <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Accessories</a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Watches</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Watches</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Ties</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Ties</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Scarves</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Scarves</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Belts</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Belts</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -344,41 +236,20 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Bottoms</a>
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Bottoms</a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Casual Pants
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Casual Pants
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Shoes</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Shoes</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Jeans</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Jeans</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Shorts</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <ul class="v-level-2">
-                                                            <li>
-                                                                <a href="shop-v2-sub-category.html">Underwear</a>
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Boxers</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Briefs</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Robes</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Socks</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Shorts</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -387,19 +258,40 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Sunglasses</a>
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Underwear</a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Pilot</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Boxers</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Wayfarer</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Briefs</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Square</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Robes</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Round</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Socks</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul class="v-level-2">
+                                                            <li>
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Sunglasses</a>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Pilot</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Wayfarer</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Square</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Round</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -409,7 +301,7 @@
                                             </div>
                                         </li>
                                         <li class="js-backdrop">
-                                            <a href="shop-v1-root-category.html">
+                                            <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">
                                                 <i class="ion ion-ios-shirt"></i>
                                                 Women's Clothing
                                                 <i class="ion ion-ios-arrow-forward"></i>
@@ -420,20 +312,20 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Tops</a>
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Dresses</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Dresses</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Blouses & Shirts
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Blouses & Shirts
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">T-shirts</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">T-shirts</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Sweater</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Sweater</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -442,21 +334,21 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Intimates</a>
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Intimates</a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Bras</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Bras</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Brief Sets
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Brief Sets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Bustiers & Corsets
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Bustiers & Corsets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Panties</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Panties</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -465,23 +357,23 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Wedding & Events
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Wedding & Events
                                                                 </a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Wedding Dresses
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Wedding Dresses
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Evening Dresses
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Evening Dresses
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Prom Dresses
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Prom Dresses
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Flower Dresses
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Flower Dresses
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -493,19 +385,19 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Bottoms</a>
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Bottoms</a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Skirts</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Skirts</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Shoes</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Shoes</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Leggings</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Leggings</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Jeans</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Jeans</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -514,21 +406,21 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Outwear & Jackets
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Outwear & Jackets
                                                                 </a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Blazers</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Blazers</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Basics Jackets
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Basics Jackets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Trench</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Trench</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Leather & Suede
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Leather & Suede
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -538,20 +430,20 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Accessories</a>
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Accessories</a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Sunglasses</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Sunglasses</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Headwear</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Headwear</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Baseball Caps
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Baseball Caps
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Belts</a>
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Belts</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -561,7 +453,7 @@
                                             </div>
                                         </li>
                                         <li class="js-backdrop">
-                                            <a href="shop-v1-root-category.html">
+                                            <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">
                                                 <i class="ion ion-md-rocket"></i>
                                                 Toys Hobbies & Robots
                                                 <i class="ion ion-ios-arrow-forward"></i>
@@ -572,47 +464,47 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">RC Toys & Hobbies
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies
                                                                 </a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">RC Helicopter
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Helicopter
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">RC Lego Robots
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Lego Robots
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">RC Drone
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">RC Car
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Car
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">RC Boat
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Boat
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">RC Robot
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Robot
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Multi Rotor Parts
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Multi Rotor Parts
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">FPV System
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">FPV System
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Radios & Receiver
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Radios & Receiver
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Battery & Charger
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Battery & Charger
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -622,19 +514,19 @@
                                                     <div class="col-lg-4">
                                                         <ul class="v-level-2">
                                                             <li>
-                                                                <a href="shop-v2-sub-category.html">Solar Energy
+                                                                <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Solar Energy
                                                                 </a>
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Solar Powered Toy
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Solar Powered Toy
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v3-sub-sub-category.html">Solar Powered System
+                                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Solar Powered System
                                                                         </a>
                                                                     </li>
                                                                     <li class="view-more-flag">
-                                                                        <a href="store-directory.html">View More
+                                                                        <a href="#">View More
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -651,31 +543,31 @@
                                             </div>
                                         </li>
                                         <li>
-                                            <a href="shop-v1-root-category.html">
+                                            <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">
                                                 <i class="ion ion-md-phone-portrait"></i>
                                                 Mobiles & Tablets
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="shop-v1-root-category.html">
+                                            <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">
                                                 <i class="ion ion-md-tv"></i>
                                                 Consumer Electronics
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="shop-v1-root-category.html">
+                                            <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">
                                                 <i class="ion ion-ios-book"></i>
                                                 Books & Audible
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="shop-v1-root-category.html">
+                                            <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">
                                                 <i class="ion ion-md-heart"></i>
                                                 Beauty & Health
                                             </a>
                                         </li>
                                         <li class="v-none" style="display: none">
-                                            <a href="shop-v1-root-category.html">
+                                            <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">
                                                 <i class="ion ion-md-easel"></i>
                                                 Furniture Home & Office
                                             </a>
@@ -694,17 +586,17 @@
                     <div class="col-lg-9">
                         <ul class="bottom-nav g-nav u-d-none-lg">
                             <li>
-                                <a href="custom-deal-page.html">New Arrivals
+                                <a href="<?php echo base_url("u_customDealPage"); ?>">New Arrivals
                                     <span class="superscript-label-new">NEW</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Exclusive Deals
+                                <a href="<?php echo base_url("u_customDealPage"); ?>">Exclusive Deals
                                     <span class="superscript-label-hot">HOT</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Flash Deals
+                                <a href="<?php echo base_url("u_customDealPage"); ?>">Flash Deals
                                 </a>
                             </li>
                             <li class="mega-position">
@@ -715,110 +607,61 @@
                                     <ul>
                                         <li class="menu-title">Home & Static Pages</li>
                                         <li>
-                                            <a href="home.html" class="u-c-brand">Home</a>
+                                            <a href="<?php echo base_url('home'); ?>" class="u-c-brand">Home</a>
                                         </li>
                                         <li>
-                                            <a href="about.html">About</a>
+                                            <a href="<?php echo base_url('about'); ?>">About</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a href="<?php echo base_url('u_contact'); ?>">Contact</a>
                                         </li>
                                         <li>
-                                            <a href="faq.html">FAQ</a>
+                                            <a href="<?php echo base_url('u_faq'); ?>">FAQ</a>
                                         </li>
                                         <li>
-                                            <a href="store-directory.html">Store Directory</a>
-                                        </li>
-                                        <li>
-                                            <a href="terms-and-conditions.html">Terms & Conditions</a>
-                                        </li>
-                                        <li>
-                                            <a href="404.html">404</a>
+                                            <a href="<?php echo base_url("u_storeDirectory"); ?>">Store Directory</a>
                                         </li>
                                         <li class="menu-title">Single Product Page</li>
                                         <li>
-                                            <a href="single-product.html">Single Product Fullwidth</a>
+                                            <a href="<?php echo base_url("u_singleProduct"); ?>">Single Product Fullwidth</a>
                                         </li>
                                         <li class="menu-title">Blog</li>
                                         <li>
-                                            <a href="blog.html">Blog Page</a>
+                                            <a href="<?php echo base_url('u_blog'); ?>">Blog Page</a>
                                         </li>
                                         <li>
-                                            <a href="blog-detail.html">Blog Details</a>
+                                            <a href="<?php echo base_url("u_blogDetail"); ?>">Blog Details</a>
                                         </li>
                                     </ul>
                                     <ul>
                                         <li class="menu-title">Ecommerce Pages</li>
                                         <li>
-                                            <a href="shop-v2-sub-category.html">Shop</a>
+                                            <a href="<?php echo base_url("u_cart"); ?>">Cart</a>
                                         </li>
                                         <li>
-                                            <a href="cart.html">Cart</a>
+                                            <a href="<?php echo base_url("u_checkout"); ?>">Checkout</a>
                                         </li>
                                         <li>
-                                            <a href="checkout.html">Checkout</a>
+                                            <a href="<?php echo base_url("u_account"); ?>">My Account</a>
                                         </li>
                                         <li>
-                                            <a href="account.html">My Account</a>
+                                            <a href="<?php echo base_url("u_wishlist"); ?>">Wishlist</a>
                                         </li>
                                         <li>
-                                            <a href="wishlist.html">Wishlist</a>
-                                        </li>
-                                        <li>
-                                            <a href="track-order.html">Track your Order</a>
+                                            <a href="<?php echo base_url("u_track_order"); ?>">Track your Order</a>
                                         </li>
                                         <li class="menu-title">Cart Variations</li>
                                         <li>
-                                            <a href="cart-empty.html">Cart Ver 1 Empty</a>
+                                            <a href="<?php echo base_url("u_cart"); ?>">Cart Ver 2 Full</a>
                                         </li>
                                         <li>
-                                            <a href="cart.html">Cart Ver 2 Full</a>
-                                        </li>
-                                        <li class="menu-title">Wishlist Variations</li>
-                                        <li>
-                                            <a href="wishlist-empty.html">Wishlist Ver 1 Empty</a>
-                                        </li>
-                                        <li>
-                                            <a href="wishlist.html">Wishlist Ver 2 Full</a>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li class="menu-title">Shop Variations</li>
-                                        <li>
-                                            <a href="shop-v1-root-category.html">Shop Ver 1 Root Category</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-v2-sub-category.html">Shop Ver 2 Sub Category</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-v3-sub-sub-category.html">Shop Ver 3 Sub Sub Category</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-v4-filter-as-category.html">Shop Ver 4 Filter as Category</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-v5-product-not-found.html">Shop Ver 5 Product Not Found</a>
-                                        </li>
-                                        <li>
-                                            <a href="shop-v6-search-results.html">Shop Ver 6 Search Results</a>
-                                        </li>
-                                        <li class="menu-title">My Account Variation</li>
-                                        <li>
-                                            <a href="lost-password.html">Lost Your Password ?</a>
-                                        </li>
-                                        <li class="menu-title">Checkout Variation</li>
-                                        <li>
-                                            <a href="confirmation.html">Checkout Confirmation</a>
-                                        </li>
-                                        <li class="menu-title">Custom Deals Page</li>
-                                        <li>
-                                            <a href="custom-deal-page.html">Custom Deal Page</a>
+                                            <a href="<?php echo base_url('u_wishlist'); ?>">Wishlist Ver 2 Full</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li>
-                                <a href="custom-deal-page.html">Super Sale
+                                <a href="<?php echo base_url("u_customDealPage"); ?>">Super Sale
                                     <span class="superscript-label-discount">-15%</span>
                                 </a>
                             </li>
@@ -861,7 +704,7 @@
     <div class="banner-layer">
         <div class="container">
             <div class="image-banner">
-                <a href="shop-v1-root-category.html" class="mx-auto banner-hover effect-dark-opacity">
+                <a href="<?php echo base_url('u_shopv1RootCategory'); ?>" class="mx-auto banner-hover effect-dark-opacity">
                     <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/banners/bannerlayer-1.jpg" alt="Winter Season Banner">
                 </a>
             </div>
@@ -896,7 +739,7 @@
                                 <div class="products-slider owl-carousel" data-item="4">
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -911,17 +754,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Hoodies</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Hoodies</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Casual Hoodie Full Cotton</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Casual Hoodie Full Cotton</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -945,7 +788,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -960,17 +803,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">T-Shirts</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">T-Shirts</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Mischka Plain Men T-Shirt</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Mischka Plain Men T-Shirt</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -991,7 +834,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1006,17 +849,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v4-filter-as-category.html">T-Shirts</a>
+                                                        <a href="<?php echo base_url('u_shopv4SubSubCategory'); ?>">T-Shirts</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Black Bean Plain Men T-Shirt</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Black Bean Plain Men T-Shirt</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -1037,7 +880,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1052,17 +895,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Bottoms</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Bottoms</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Jeans</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Jeans</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Regular Rock Blue Men Jean</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Regular Rock Blue Men Jean</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -1086,7 +929,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1101,17 +944,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Suits</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Suits</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Black Maire Full Men Suit</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Black Maire Full Men Suit</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -1135,7 +978,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1150,17 +993,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="s<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Outwear</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Outwear</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Jackets</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Jackets</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Woodsmoke Rookie Parka Jacket</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Woodsmoke Rookie Parka Jacket</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -1181,7 +1024,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1196,17 +1039,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Accessories</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Accessories</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Ties</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Ties</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Blue Zodiac Boxes Reg Tie
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Blue Zodiac Boxes Reg Tie
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -1228,7 +1071,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1243,17 +1086,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Bottoms</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Bottoms</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Shoes</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Shoes</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Zambezi Carved Leather Business Casual Shoes
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Zambezi Carved Leather Business Casual Shoes
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -1294,7 +1137,7 @@
                                 <div class="products-slider owl-carousel" data-item="4">
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1309,17 +1152,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Suits</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Suits</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Black Maire Full Men Suit</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Black Maire Full Men Suit</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="4.5 out of 5 - based on 23 Reviews">
@@ -1343,7 +1186,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1358,17 +1201,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Outwear</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Outwear</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Jackets</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Jackets</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Woodsmoke Rookie Parka Jacket</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Woodsmoke Rookie Parka Jacket</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="4.5 out of 5 - based on 23 Reviews">
@@ -1389,7 +1232,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1404,17 +1247,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Accessories</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Accessories</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Ties</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Ties</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Blue Zodiac Boxes Reg Tie</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Blue Zodiac Boxes Reg Tie</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="4.5 out of 5 - based on 23 Reviews">
@@ -1435,7 +1278,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1450,17 +1293,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Men's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Bottoms</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Bottoms</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Shoes</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Shoes</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Zambezi Carved Leather Business Casual Shoes
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Zambezi Carved Leather Business Casual Shoes
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -1543,7 +1386,7 @@
                 <div class="products-slider owl-carousel" data-item="4">
                     <div class="item">
                         <div class="image-container">
-                            <a class="item-img-wrapper-link" href="single-product.html">
+                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
@@ -1557,17 +1400,17 @@
                             <div class="what-product-is">
                                 <ul class="bread-crumb">
                                     <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men's</a>
+                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                     </li>
                                     <li class="has-separator">
-                                        <a href="shop-v2-sub-category.html">Outwear</a>
+                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Outwear</a>
                                     </li>
                                     <li>
-                                        <a href="shop-v3-sub-sub-category.html">Jackets</a>
+                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Jackets</a>
                                     </li>
                                 </ul>
                                 <h6 class="item-title">
-                                    <a href="single-product.html">Maire Battlefield Jeep Men's Jacket</a>
+                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Maire Battlefield Jeep Men's Jacket</a>
                                 </h6>
                                 <div class="item-stars">
                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -1591,7 +1434,7 @@
                     </div>
                     <div class="item">
                         <div class="image-container">
-                            <a class="item-img-wrapper-link" href="single-product.html">
+                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
@@ -1605,17 +1448,17 @@
                             <div class="what-product-is">
                                 <ul class="bread-crumb">
                                     <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men's</a>
+                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                     </li>
                                     <li class="has-separator">
-                                        <a href="shop-v2-sub-category.html">Outwear</a>
+                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Outwear</a>
                                     </li>
                                     <li>
-                                        <a href="shop-v3-sub-sub-category.html">Jackets</a>
+                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Jackets</a>
                                     </li>
                                 </ul>
                                 <h6 class="item-title">
-                                    <a href="single-product.html">Fern Green Men's Jacket</a>
+                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Fern Green Men's Jacket</a>
                                 </h6>
                                 <div class="item-stars">
                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -1639,7 +1482,7 @@
                     </div>
                     <div class="item">
                         <div class="image-container">
-                            <a class="item-img-wrapper-link" href="single-product.html">
+                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
@@ -1653,17 +1496,17 @@
                             <div class="what-product-is">
                                 <ul class="bread-crumb">
                                     <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men's</a>
+                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                     </li>
                                     <li class="has-separator">
-                                        <a href="shop-v2-sub-category.html">Sunglasses</a>
+                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Sunglasses</a>
                                     </li>
                                     <li>
-                                        <a href="shop-v3-sub-sub-category.html">Round</a>
+                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Round</a>
                                     </li>
                                 </ul>
                                 <h6 class="item-title">
-                                    <a href="single-product.html">Brown Dark Tan Round Double Bridge Sunglasses</a>
+                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Brown Dark Tan Round Double Bridge Sunglasses</a>
                                 </h6>
                                 <div class="item-stars">
                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -1687,7 +1530,7 @@
                     </div>
                     <div class="item">
                         <div class="image-container">
-                            <a class="item-img-wrapper-link" href="single-product.html">
+                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
@@ -1701,17 +1544,17 @@
                             <div class="what-product-is">
                                 <ul class="bread-crumb">
                                     <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men's</a>
+                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                     </li>
                                     <li class="has-separator">
-                                        <a href="shop-v2-sub-category.html">Sunglasses</a>
+                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Sunglasses</a>
                                     </li>
                                     <li>
-                                        <a href="shop-v3-sub-sub-category.html">Round</a>
+                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Round</a>
                                     </li>
                                 </ul>
                                 <h6 class="item-title">
-                                    <a href="single-product.html">Black Round Double Bridge Sunglasses</a>
+                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Black Round Double Bridge Sunglasses</a>
                                 </h6>
                                 <div class="item-stars">
                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -1743,12 +1586,12 @@
     <div class="banner-image-view-more">
         <div class="container">
             <div class="image-banner u-s-m-y-40">
-                <a href="shop-v1-root-category.html" class="mx-auto banner-hover effect-dark-opacity">
+                <a href="<?php echo base_url('u_shopv1RootCategory'); ?>" class="mx-auto banner-hover effect-dark-opacity">
                     <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/banners/ban-men.jpg" alt="Banner Image">
                 </a>
             </div>
             <div class="redirect-link-wrapper text-center u-s-p-t-25 u-s-p-b-80">
-                <a class="redirect-link" href="store-directory.html">
+                <a class="redirect-link" href="#">
                     <span>View more on this category</span>
                 </a>
             </div>
@@ -1784,7 +1627,7 @@
                                 <div class="products-slider owl-carousel" data-item="4">
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1799,17 +1642,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Dresses</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Dresses</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">White Solitude Dress with mid heel & Bag
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">White Solitude Dress with mid heel & Bag
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -1834,7 +1677,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1849,17 +1692,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Dresses</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Dresses</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Black Rock Dress with High Jewelery Necklace
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Black Rock Dress with High Jewelery Necklace
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -1881,7 +1724,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1896,17 +1739,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Dresses</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Dresses</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Haiti Full Dress with Boots & Jacket</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Haiti Full Dress with Boots & Jacket</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -1927,7 +1770,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1942,17 +1785,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Dresses</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Dresses</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Black & White Wrap Dress with High Jewelery Necklace</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Black & White Wrap Dress with High Jewelery Necklace</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -1976,7 +1819,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -1991,17 +1834,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Dresses</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Dresses</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Grey Nickel Special Occasion Dress</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Grey Nickel Special Occasion Dress</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -2025,7 +1868,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2040,17 +1883,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Dresses</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Dresses</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Red Carmine Winter Special Occasion Dress
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Red Carmine Winter Special Occasion Dress
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -2072,7 +1915,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2087,17 +1930,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Bottoms</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Bottoms</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Shoes</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Shoes</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Wax Flower with Corn Silk Heel
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Wax Flower with Corn Silk Heel
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -2119,7 +1962,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2134,17 +1977,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Intimates</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Intimates</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Bras</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Bras</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Red Wild Bra
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Red Wild Bra
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -2185,7 +2028,7 @@
                                 <div class="products-slider owl-carousel" data-item="4">
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2200,17 +2043,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Dresses</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Dresses</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Grey Nickel Special Occasion Dress</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Grey Nickel Special Occasion Dress</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="4.5 out of 5 - based on 23 Reviews">
@@ -2234,7 +2077,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2249,17 +2092,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Dresses</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Dresses</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Red Carmine Winter Special Occasion Dress
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Red Carmine Winter Special Occasion Dress
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -2281,7 +2124,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2296,17 +2139,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Bottoms</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Bottoms</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Shoes</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Shoes</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Wax Flower with Corn Silk Heel</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Wax Flower with Corn Silk Heel</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="4.5 out of 5 - based on 23 Reviews">
@@ -2327,7 +2170,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2342,17 +2185,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Women's</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Women's</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">Intimates</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Intimates</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">Bras</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Bras</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Red Wild Bra</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Red Wild Bra</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="4.5 out of 5 - based on 23 Reviews">
@@ -2391,7 +2234,7 @@
                 </div>
             </div>
             <div class="redirect-link-wrapper text-center u-s-p-t-25 u-s-p-b-80">
-                <a class="redirect-link" href="store-directory.html">
+                <a class="redirect-link" href="#">
                     <span>View more on this category</span>
                 </a>
             </div>
@@ -2426,7 +2269,7 @@
                                 <div class="products-slider owl-carousel" data-item="4">
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2441,17 +2284,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Helicopte</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Helicopte</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">RC Helicopter 6-Cell</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">RC Helicopter 6-Cell</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -2475,7 +2318,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2490,17 +2333,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">DJI Phantom with 1080p Camera</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">DJI Phantom with 1080p Camera</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -2521,7 +2364,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2536,17 +2379,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">DJI Inspire with 1080p Camera</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">DJI Inspire with 1080p Camera</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -2567,7 +2410,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2582,17 +2425,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">DJI Phantom with Battery Lights</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">DJI Phantom with Battery Lights</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -2616,7 +2459,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2631,17 +2474,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">DJI Mavic Air
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">DJI Mavic Air
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -2666,7 +2509,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2681,17 +2524,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">U45 Raven RC Quadcopter
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">U45 Raven RC Quadcopter
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -2713,7 +2556,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2728,17 +2571,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">DJI Inspire 1 with 1080p Camera
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">DJI Inspire 1 with 1080p Camera
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -2760,7 +2603,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2775,17 +2618,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">DJI Inspire 1 with 360° Camera
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">DJI Inspire 1 with 360° Camera
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -2826,7 +2669,7 @@
                                 <div class="products-slider owl-carousel" data-item="4">
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2841,17 +2684,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">DJI Mavic Air
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">DJI Mavic Air
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -2876,7 +2719,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2891,17 +2734,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">U45 Raven RC Quadcopter
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">U45 Raven RC Quadcopter
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -2923,7 +2766,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2938,17 +2781,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">DJI Inspire 1 with 1080p Camera</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">DJI Inspire 1 with 1080p Camera</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="4.5 out of 5 - based on 23 Reviews">
@@ -2969,7 +2812,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -2984,17 +2827,17 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li class="has-separator">
-                                                        <a href="shop-v1-root-category.html">Toys Drones</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Toys Drones</a>
                                                     </li>
                                                     <li class="has-separator">
-                                                        <a href="shop-v2-sub-category.html">RC Toys & Hobbies</a>
+                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">RC Toys & Hobbies</a>
                                                     </li>
                                                     <li>
-                                                        <a href="shop-v3-sub-sub-category.html">RC Drone</a>
+                                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">RC Drone</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">DJI Inspire 1 with 360° Camera</a>
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">DJI Inspire 1 with 360° Camera</a>
                                                 </h6>
                                                 <div class="item-stars">
                                                     <div class='star' title="4.5 out of 5 - based on 23 Reviews">
@@ -3033,7 +2876,7 @@
                 </div>
             </div>
             <div class="redirect-link-wrapper text-center u-s-p-t-25 u-s-p-b-80">
-                <a class="redirect-link" href="store-directory.html">
+                <a class="redirect-link" href="#">
                     <span>View more on this category</span>
                 </a>
             </div>
@@ -3102,7 +2945,7 @@
                                                 <div class="specific-category-slider owl-carousel" data-item="3">
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3118,15 +2961,15 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Mobiles & Tablets
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Mobiles & Tablets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Smartphones</a>
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>s">Smartphones</a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Xiaomi Note 2 Black Color
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Xiaomi Note 2 Black Color
                                                                     </a>
                                                                 </h6>
                                                                 <div class="item-stars">
@@ -3151,7 +2994,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3167,15 +3010,15 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Mobiles & Tablets
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Mobiles & Tablets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Smartphones</a>
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Smartphones</a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Iphone X Silver Color</a>
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Iphone X Silver Color</a>
                                                                 </h6>
                                                                 <div class="item-stars">
                                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -3196,7 +3039,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3212,15 +3055,15 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Mobiles & Tablets
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Mobiles & Tablets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Smartphones</a>
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Smartphones</a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Samsung S7 Green Metallic Color
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Samsung S7 Green Metallic Color
                                                                     </a>
                                                                 </h6>
                                                                 <div class="item-stars">
@@ -3245,7 +3088,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3261,15 +3104,15 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Mobiles & Tablets
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Mobiles & Tablets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Smartphones</a>
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Smartphones</a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Sony Xperia 3 Black Color
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Sony Xperia 3 Black Color
                                                                     </a>
                                                                 </h6>
                                                                 <div class="item-stars">
@@ -3310,7 +3153,7 @@
                                                 <div class="specific-category-slider owl-carousel" data-item="3">
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3326,16 +3169,16 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Mobiles & Tablets
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Mobiles & Tablets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Smartwatches
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Smartwatches
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Outatime Mix Smartwatch
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Outatime Mix Smartwatch
                                                                     </a>
                                                                 </h6>
                                                                 <div class="item-stars">
@@ -3360,7 +3203,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3376,16 +3219,16 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Mobiles & Tablets
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Mobiles & Tablets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Smartwatches
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Smartwatches
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Mombo Full Wrist Smartwatch
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Mombo Full Wrist Smartwatch
                                                                     </a>
                                                                 </h6>
                                                                 <div class="item-stars">
@@ -3407,7 +3250,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3423,16 +3266,16 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Mobiles & Tablets
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Mobiles & Tablets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Smartwatches
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Smartwatches
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Apollo Sport Think Smartwatch
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Apollo Sport Think Smartwatch
                                                                     </a>
                                                                 </h6>
                                                                 <div class="item-stars">
@@ -3457,7 +3300,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3473,16 +3316,16 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Mobiles & Tablets
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Mobiles & Tablets
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Smartwatches
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Smartwatches
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Rhythm Pulse Smartwatch
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Rhythm Pulse Smartwatch
                                                                     </a>
                                                                 </h6>
                                                                 <div class="item-stars">
@@ -3566,7 +3409,7 @@
                 </div>
             </div>
             <div class="redirect-link-wrapper text-center u-s-p-t-25 u-s-p-b-80">
-                <a class="redirect-link" href="store-directory.html">
+                <a class="redirect-link" href="#">
                     <span>View more on this category</span>
                 </a>
             </div>
@@ -3636,7 +3479,7 @@
                                                 <div class="specific-category-slider owl-carousel" data-item="3">
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3652,15 +3495,15 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Consumer Electronics
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Consumer Electronics
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Laptops</a>
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Laptops</a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">HP Pavilion 15 Notebook
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">HP Pavilion 15 Notebook
                                                                     </a>
                                                                 </h6>
                                                                 <div class="item-stars">
@@ -3685,7 +3528,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3701,15 +3544,15 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Consumer Electronics
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Consumer Electronics
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Laptops</a>
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Laptops</a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Apple Macbook Pro 2017</a>
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Apple Macbook Pro 2017</a>
                                                                 </h6>
                                                                 <div class="item-stars">
                                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -3730,7 +3573,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3746,15 +3589,15 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Consumer Electronics
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Consumer Electronics
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Laptops</a>
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Laptops</a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Dell Inspiron 15</a>
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Dell Inspiron 15</a>
                                                                 </h6>
                                                                 <div class="item-stars">
                                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -3778,7 +3621,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3794,15 +3637,15 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Consumer Electronics
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Consumer Electronics
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">Laptops</a>
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Laptops</a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Dell Inspiron 1525</a>
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Dell Inspiron 1525</a>
                                                                 </h6>
                                                                 <div class="item-stars">
                                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -3842,7 +3685,7 @@
                                                 <div class="specific-category-slider owl-carousel" data-item="3">
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3858,16 +3701,16 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Consumer Electronics
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Consumer Electronics
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">TV/LCD/LED
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">TV/LCD/LED
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Hisense 4k LED TV</a>
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Hisense 4k LED TV</a>
                                                                 </h6>
                                                                 <div class="item-stars">
                                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -3891,7 +3734,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3907,16 +3750,16 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Consumer Electronics
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Consumer Electronics
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">TV/LCD/LED
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">TV/LCD/LED
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">TCL 4k LED TV</a>
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">TCL 4k LED TV</a>
                                                                 </h6>
                                                                 <div class="item-stars">
                                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -3937,7 +3780,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -3953,16 +3796,16 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Consumer Electronics
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Consumer Electronics
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">TV/LCD/LED
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">TV/LCD/LED
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">Sony 4k LED TV
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Sony 4k LED TV
                                                                     </a>
                                                                 </h6>
                                                                 <div class="item-stars">
@@ -3987,7 +3830,7 @@
                                                     </div>
                                                     <div class="item">
                                                         <div class="image-container">
-                                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                                             </a>
                                                             <div class="item-action-behaviors">
@@ -4003,16 +3846,16 @@
                                                             <div class="what-product-is">
                                                                 <ul class="bread-crumb">
                                                                     <li class="has-separator">
-                                                                        <a href="shop-v1-root-category.html">Consumer Electronics
+                                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Consumer Electronics
                                                                         </a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="shop-v2-sub-category.html">TV/LCD/LED
+                                                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">TV/LCD/LED
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                                 <h6 class="item-title">
-                                                                    <a href="single-product.html">China Petrei 4k LED TV</a>
+                                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">China Petrei 4k LED TV</a>
                                                                 </h6>
                                                                 <div class="item-stars">
                                                                     <div class='star' title="0 out of 5 - based on 0 Reviews">
@@ -4095,7 +3938,7 @@
                 </div>
             </div>
             <div class="redirect-link-wrapper text-center u-s-p-t-25 u-s-p-b-80">
-                <a class="redirect-link" href="store-directory.html">
+                <a class="redirect-link" href="#">
                     <span>View more on this category</span>
                 </a>
             </div>
@@ -4130,7 +3973,7 @@
                                 <div class="products-slider owl-carousel" data-item="4">
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -4145,11 +3988,11 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li>
-                                                        <a href="shop-v1-root-category.html">Books</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Books</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">JavaScript The Definitive Guide by David Flanagan
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">JavaScript The Definitive Guide by David Flanagan
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -4174,7 +4017,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -4189,11 +4032,11 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li>
-                                                        <a href="shop-v1-root-category.html">Books</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Books</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Eloquent JavaScript by Marijn Haverbeke
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Eloquent JavaScript by Marijn Haverbeke
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -4215,7 +4058,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -4230,11 +4073,11 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li>
-                                                        <a href="shop-v1-root-category.html">Books</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Books</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">Secret of the JavaScript Ninja by Bear Bibeault & John Resig
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Secret of the JavaScript Ninja by Bear Bibeault & John Resig
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -4256,7 +4099,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="image-container">
-                                            <a class="item-img-wrapper-link" href="single-product.html">
+                                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
                                                 <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                                             </a>
                                             <div class="item-action-behaviors">
@@ -4271,11 +4114,11 @@
                                             <div class="what-product-is">
                                                 <ul class="bread-crumb">
                                                     <li>
-                                                        <a href="shop-v1-root-category.html">Books</a>
+                                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Books</a>
                                                     </li>
                                                 </ul>
                                                 <h6 class="item-title">
-                                                    <a href="single-product.html">JavaScript The Good Parts by Douglas Crockford
+                                                    <a href="<?php echo base_url('u_singleProduct'); ?>">JavaScript The Good Parts by Douglas Crockford
                                                     </a>
                                                 </h6>
                                                 <div class="item-stars">
@@ -4335,7 +4178,7 @@
                 </div>
             </div>
             <div class="redirect-link-wrapper text-center u-s-p-t-25 u-s-p-b-80">
-                <a class="redirect-link" href="store-directory.html">
+                <a class="redirect-link" href="#">
                     <span>View more on this category</span>
                 </a>
             </div>
@@ -4344,7 +4187,7 @@
     <!-- Books-&-Audible /- -->
     <!-- Continue-Link -->
     <div class="continue-link-wrapper u-s-p-b-80">
-        <a class="continue-link" href="store-directory.html" title="View all products on site">
+        <a class="continue-link" href="#" title="View all products on site">
             <i class="ion ion-ios-more"></i>
         </a>
     </div>
@@ -4470,13 +4313,10 @@
                             <h6>CUSTOMER SERVICE</h6>
                             <ul>
                                 <li>
-                                    <a href="faq.html">FAQs</a>
+                                    <a href="<?php echo base_url('u_faq'); ?>">FAQs</a>
                                 </li>
                                 <li>
-                                    <a href="track-order.html">Track Order</a>
-                                </li>
-                                <li>
-                                    <a href="terms-and-conditions.html">Terms & Conditions</a>
+                                    <a href="<?php echo base_url("u_termsAndConditions"); ?>">Terms & Conditions</a>
                                 </li>
                             </ul>
                         </div>
@@ -4486,13 +4326,13 @@
                             <h6>COMPANY</h6>
                             <ul>
                                 <li>
-                                    <a href="home.html">Home</a>
+                                    <a href="<?php echo base_url('u_home'); ?>">Home</a>
                                 </li>
                                 <li>
-                                    <a href="about.html">About</a>
+                                    <a href="<?php echo base_url('u_about'); ?>">About</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contact</a>
+                                    <a href="<?php echo base_url('u_contact'); ?>">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -4502,13 +4342,13 @@
                             <h6>INFORMATION</h6>
                             <ul>
                                 <li>
-                                    <a href="store-directory.html">Categories Directory</a>
+                                    <a href="#">Categories Directory</a>
                                 </li>
                                 <li>
-                                    <a href="wishlist.html">My Wishlist</a>
+                                    <a href="<?php echo base_url('u_wishlist'); ?>">My Wishlist</a>
                                 </li>
                                 <li>
-                                    <a href="cart.html">My Cart</a>
+                                    <a href="<?php echo base_url("u_cart"); ?>">My Cart</a>
                                 </li>
                             </ul>
                         </div>
@@ -4582,7 +4422,7 @@
                     </ul>
                 </div>
                 <p class="copyright-text">Copyright &copy; 2018
-                    <a href="home.html">Groover</a> All Right Reserved</p>
+                    <a href="<?php echo base_url('u_home'); ?>">Groover</a> All Right Reserved</p>
             </div>
         </div>
         <!-- Bottom-Footer /- -->
@@ -4611,41 +4451,7 @@
     </div>
     <!-- Responsive-Search /- -->
     <!-- Newsletter-Modal -->
-    <div id="newsletter-modal" class="modal fade">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <button type="button" class="button dismiss-button ion ion-ios-close" data-dismiss="modal"></button>
-                <div class="modal-body u-s-p-x-0">
-                    <div class="row align-items-center u-s-m-x-0">
-                        <div class="col-lg-6 col-md-6 col-sm-12 u-s-p-x-0">
-                            <div class="newsletter-image">
-                                <a href="shop-v1-root-category.html" class="banner-hover effect-dark-opacity">
-                                    <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/banners/newsletter-1.jpg" alt="Newsletter Image">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="newsletter-wrapper">
-                                <h1>New to
-                                    <span>Groover</span> ?
-                                    <br>Subscribe Newsletter</h1>
-                                <h5>Get latest product update...</h5>
-                                <form>
-                                    <div class="u-s-m-b-35">
-                                        <input type="text" class="newsletter-textfield" placeholder="Enter Your Email">
-                                    </div>
-                                    <div class="u-s-m-b-35">
-                                        <button class="button button-primary d-block w-100">Subscribe</button>
-                                    </div>
-                                </form>
-                                <h6>Be the first for getting special deals and offers, Send directly to your inbox.</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- Newsletter-Modal /- -->
     <!-- Quick-view-Modal -->
     <div id="quick-view" class="modal fade">
@@ -4687,21 +4493,21 @@
                                 <div class="section-1-title-breadcrumb-rating">
                                     <div class="product-title">
                                         <h1>
-                                            <a href="single-product.html">Casual Hoodie Full Cotton</a>
+                                            <a href="<?php echo base_url('u_singleProduct'); ?>">Casual Hoodie Full Cotton</a>
                                         </h1>
                                     </div>
                                     <ul class="bread-crumb">
                                         <li class="has-separator">
-                                            <a href="home.html">Home</a>
+                                            <a href="<?php echo base_url('u_home'); ?>">Home</a>
                                         </li>
                                         <li class="has-separator">
-                                            <a href="shop-v1-root-category.html">Men's Clothing</a>
+                                            <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's Clothing</a>
                                         </li>
                                         <li class="has-separator">
-                                            <a href="shop-v2-sub-category.html">Tops</a>
+                                            <a href="<?php echo base_url('u_shopv2SubCategory'); ?>>Tops</a>
                                         </li>
                                         <li class="is-marked">
-                                            <a href="shop-v3-sub-sub-category.html">Hoodies</a>
+                                            <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Hoodies</a>
                                         </li>
                                     </ul>
                                     <div class="product-rating">

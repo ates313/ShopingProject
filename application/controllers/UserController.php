@@ -13,16 +13,12 @@ class UserController extends CI_Controller{
         $this->load->view("user/account");
     }
 
-    public function blog_detail(){
-        $this->load->view("user/blog-detail");
+    public function blogDetail(){
+        $this->load->view("user/blogDetail");
     }
 
     public function blog(){
         $this->load->view("user/blog");
-    }
-
-    public function cart_empty(){
-        $this->load->view("user/cart-empty");
     }
 
     public function cart(){
@@ -33,78 +29,75 @@ class UserController extends CI_Controller{
         $this->load->view("user/checkout");
     }
 
-    public function confirmation(){
-        $this->load->view("user/confirmation");
-    }
-
     public function contact(){
         $this->load->view("user/contact");
-    }
-
-    public function custom_deal_page(){
-        $this->load->view("user/custom-deal-page");
     }
 
     public function faq(){
         $this->load->view("user/faq");
     }
 
-    public function home_html(){
-        $this->load->view("user/home-html");
+    public function cartEmpty(){
+        $this->load->view("user/cartEmpty");
     }
 
-    public function lost_password(){
-        $this->load->view("user/lost-password");
+    public function customDealPage(){
+        $this->load->view("user/customDealPage");
     }
 
-    public function shop_v1_root_categoryCopy(){
-        $this->load->view("user/shop-v1-root-category copy");
-    }
-    public function shop_v1_root_category(){
-        $this->load->view("user/shop-v1-root-category");
+    public function lostPassword(){
+        $this->load->view("user/lostPassword");
     }
 
-    public function shop_v2_sub_category(){
-        $this->load->view("user/shop-v2-sub-category");
+    public function shopv1RootCategory(){
+        $this->load->view("user/shopv1RootCategory");
     }
 
-    public function shop_v3_sub_sub_category(){
-        $this->load->view("user/shop-v3-sub-sub-category");
+    public function shopv1RootCategoryCopy(){
+        $this->load->view("user/shopv1RootCategoryCopy");
     }
 
-    public function shop_v4_filter_as_category(){
-        $this->load->view("user/shop-v4-filter-as-category");
+    public function shopv2SubCategory(){
+        $this->load->view("user/shopv2SubCategory");
     }
 
-    public function shop_v5_product_not_found(){
-        $this->load->view("user/shop-v5-product-not-found");
+    public function shopv3SubSubCategory(){
+        $this->load->view("user/shopv3SubSubCategory");
     }
 
-    public function shop_v6_search_results(){
-        $this->load->view("user/shop-v6-search-results");
+    public function shopv4FilterAsCategory(){
+        $this->load->view("user/shopv4FilterAsCategory");
     }
 
-    public function single_product(){
-        $this->load->view("user/single-product");
+    public function shopv5ProductNotFound(){
+        $this->load->view("user/shopv5ProductNotFound");
     }
 
-    public function store_directory(){
-        $this->load->view("user/store-directory");
+    public function shopv6SearchResults(){
+        $this->load->view("user/shopv6SearchResults");
     }
 
-    public function terms_and_conditions(){
-        $this->load->view("user/terms-and-conditions");
+    public function singleProduct(){
+        $this->load->view("user/singleProduct");
     }
 
-    public function track_order(){
-        $this->load->view("user/track-order");
-    }
-
-    public function wishlist_empty(){
-        $this->load->view("user/wishlist-empty");
+    public function storeDirectory(){
+        $this->load->view("user/storeDirectory");
     }
 
     public function wishlist(){
         $this->load->view("user/wishlist");
+    }
+
+    public function termsAndConditions(){
+        $this->load->view("user/termsAndConditions");
+    }
+
+    public function trackOrder(){
+        $this->load->view("user/trackOrder");
+    }
+
+    public function wishlistEmpty(){
+        $this->load->view("user/wishlistEmpty");
     }
 }

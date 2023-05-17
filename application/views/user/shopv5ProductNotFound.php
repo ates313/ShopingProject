@@ -613,7 +613,7 @@
                                             <a href="about.html">About</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html" class="u-c-brand">Contact</a>
+                                            <a href="contact.html">Contact</a>
                                         </li>
                                         <li>
                                             <a href="faq.html">FAQ</a>
@@ -642,7 +642,7 @@
                                     <ul>
                                         <li class="menu-title">Ecommerce Pages</li>
                                         <li>
-                                            <a href="shop-v2-sub-category.html">Shop</a>
+                                            <a href="shop-v2-sub-category.html" class="u-c-brand">Shop</a>
                                         </li>
                                         <li>
                                             <a href="cart.html">Cart</a>
@@ -689,7 +689,7 @@
                                             <a href="shop-v4-filter-as-category.html">Shop Ver 4 Filter as Category</a>
                                         </li>
                                         <li>
-                                            <a href="shop-v5-product-not-found.html">Shop Ver 5 Product Not Found</a>
+                                            <a href="shop-v5-product-not-found.html" class="u-c-brand">Shop Ver 5 Product Not Found</a>
                                         </li>
                                         <li>
                                             <a href="shop-v6-search-results.html">Shop Ver 6 Search Results</a>
@@ -726,92 +726,50 @@
     <div class="page-style-a">
         <div class="container">
             <div class="page-intro">
-                <h2>Contact</h2>
+                <h2>Shop</h2>
                 <ul class="bread-crumb">
                     <li class="has-separator">
                         <i class="ion ion-md-home"></i>
                         <a href="home.html">Home</a>
                     </li>
                     <li class="is-marked">
-                        <a href="contact.html">Contact</a>
+                        <a href="shop-v5-product-not-found.html">Shop</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- Page Introduction Wrapper /- -->
-    <!-- Contact-Page -->
-    <div class="page-contact u-s-p-t-80">
+    <!-- Shop-Page -->
+    <div class="page-shop u-s-p-t-80">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="touch-wrapper">
-                        <h1 class="contact-h1">Get In Touch With Us</h1>
-                        <form>
-                            <div class="group-inline u-s-m-b-30">
-                                <div class="group-1 u-s-p-r-16">
-                                    <label for="contact-name">Your Name
-                                        <span class="astk">*</span>
-                                    </label>
-                                    <input type="text" id="contact-name" class="text-field" placeholder="Name">
-                                </div>
-                                <div class="group-2">
-                                    <label for="contact-email">Your Email
-                                        <span class="astk">*</span>
-                                    </label>
-                                    <input type="text" id="contact-email" class="text-field" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="u-s-m-b-30">
-                                <label for="contact-subject">Subject
-                                    <span class="astk">*</span>
-                                </label>
-                                <input type="text" id="contact-subject" class="text-field" placeholder="Subject">
-                            </div>
-                            <div class="u-s-m-b-30">
-                                <label for="contact-message">Message:</label>
-                                <textarea class="text-area" id="contact-message"></textarea>
-                            </div>
-                            <div class="u-s-m-b-30">
-                                <button type="submit" class="button button-outline-secondary">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="information-about-wrapper">
-                        <h1 class="contact-h1">Information About Us</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, tempora, voluptate. Architecto aspernatur, culpa cupiditate deserunt dolore eos facere in, incidunt omnis quae quam quos, similique sunt tempore vel vero.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, tempora, voluptate. Architecto aspernatur, culpa cupiditate deserunt dolore eos facere in, incidunt omnis quae quam quos, similique sunt tempore vel vero.
-                        </p>
-                    </div>
-                    <div class="contact-us-wrapper">
-                        <h1 class="contact-h1">Contact Us</h1>
-                        <div class="contact-material u-s-m-b-16">
-                            <h6>Location</h6>
-                            <span>4441 Jett Lane</span>
-                            <span>Bellflower, CA 90706</span>
-                        </div>
-                        <div class="contact-material u-s-m-b-16">
-                            <h6>Email</h6>
-                            <span>contact@domain.com</span>
-                        </div>
-                        <div class="contact-material u-s-m-b-16">
-                            <h6>Telephone</h6>
-                            <span>+111-444-989</span>
-                        </div>
-                    </div>
-                </div>
+            <!-- Result-Wrapper -->
+            <div class="result-wrapper u-s-p-y-80">
+                <ul class="bread-crumb">
+                    <li class="has-separator">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li class="is-marked">
+                        <a href="store-directory.html">All Categories</a>
+                    </li>
+                </ul>
+                <h4>Your search, did not match any products. A partial match of your keywords is listed below.</h4>
+                <h4>Related searches:
+                    <a href="shop-v1-root-category.html">men's clothing</a> ,
+                    <a href="shop-v1-root-category.html">mobiles & tablets</a> ,
+                    <a href="shop-v1-root-category.html">books & audible</a>
+                </h4>
+                <h1>SORRY</h1>
+                <form>
+                    <label class="sr-only" for="search-not-found">Enter Keywords</label>
+                    <input type="text" class="text-field" id="search-not-found" placeholder="Search Products...">
+                    <button class="button">Search</button>
+                </form>
             </div>
-        </div>
-        <div class="u-s-p-t-80">
-            <div id="map"></div>
+            <!-- Result-Wrapper /- -->
         </div>
     </div>
-    <!-- Contact-Page /- -->
+    <!-- Shop-Page /- -->
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -953,7 +911,8 @@
                     </ul>
                 </div>
                 <p class="copyright-text">Copyright &copy; 2018
-                    <a href="home.html">Groover</a> All Right Reserved</p>
+                    <a href="home.html">Groover</a> All Right Reserved
+                </p>
             </div>
         </div>
         <!-- Bottom-Footer /- -->
@@ -983,8 +942,6 @@
     <!-- Responsive-Search /- -->
 </div>
 <!-- app /- -->
-<!-- Google-Maps -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-MO9uPLS-ApTqYs0FpYdVG8cFwdq6apw"></script>
 <!--[if lte IE 9]>
 <div class="app-issue">
     <div class="vertical-center">

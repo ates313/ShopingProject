@@ -23,10 +23,10 @@
                 <ul class="bread-crumb">
                     <li class="has-separator">
                         <i class="ion ion-md-home"></i>
-                        <a href="home.html">Home</a>
+                        <a href="<?php echo base_url('u_home'); ?>">Home</a>
                     </li>
                     <li class="is-marked">
-                        <a href="about.html">About</a>
+                        <a href="<?php echo base_url('u_about'); ?>">About</a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="about-me-image u-s-m-b-30">
                         <div class="banner-hover effect-border-scaling-gray">
-                            <img class="img-fluid" src="images/about/about-1.jpg" alt="About Picture">
+                            <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/about/about-1.jpg" alt="About Picture">
                         </div>
                     </div>
                     <div class="about-social text-center u-s-m-b-30">
@@ -130,60 +130,4 @@
     display: none;
 } </style>
 <![endif]-->
-<!-- NoScript -->
-<noscript>
-    <div class="app-issue">
-        <div class="vertical-center">
-            <div class="text-center">
-                <h1>JavaScript is disabled in your browser.</h1>
-                <span>Please enable JavaScript in your browser or upgrade to a JavaScript-capable browser to register for Groover.</span>
-            </div>
-        </div>
-    </div>
-    <style>
-    #app {
-        display: none;
-    }
-    </style>
-</noscript>
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-window.ga = function() {
-    ga.q.push(arguments)
-};
-ga.q = [];
-ga.l = +new Date;
-ga('create', 'UA-XXXXX-Y', 'auto');
-ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async defer></script>
-<!-- Modernizr-JS -->
-<script type="text/javascript" src="js/vendor/modernizr-custom.min.js"></script>
-<!-- NProgress -->
-<script type="text/javascript" src="js/nprogress.min.js"></script>
-<!-- jQuery -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<!-- Bootstrap JS -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!-- Popper -->
-<script type="text/javascript" src="js/popper.min.js"></script>
-<!-- ScrollUp -->
-<script type="text/javascript" src="js/jquery.scrollUp.min.js"></script>
-<!-- Elevate Zoom -->
-<script type="text/javascript" src="js/jquery.elevatezoom.min.js"></script>
-<!-- jquery-ui-range-slider -->
-<script type="text/javascript" src="js/jquery-ui.range-slider.min.js"></script>
-<!-- jQuery Slim-Scroll -->
-<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
-<!-- jQuery Resize-Select -->
-<script type="text/javascript" src="js/jquery.resize-select.min.js"></script>
-<!-- jQuery Custom Mega Menu -->
-<script type="text/javascript" src="js/jquery.custom-megamenu.min.js"></script>
-<!-- jQuery Countdown -->
-<script type="text/javascript" src="js/jquery.custom-countdown.min.js"></script>
-<!-- Owl Carousel -->
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<!-- Main -->
-<script type="text/javascript" src="js/app.js"></script>
-</body>
-</html>
+<?php $this->load->view('user/includes/footerScript'); ?>

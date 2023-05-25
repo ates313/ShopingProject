@@ -23,10 +23,10 @@
                 <ul class="bread-crumb">
                     <li class="has-separator">
                         <i class="ion ion-md-home"></i>
-                        <a href="home.html">Home</a>
+                        <a href="<?php echo base_url('u_home'); ?>">Home</a>
                     </li>
                     <li class="is-marked">
-                        <a href="custom-deal-page.html">New Arrivals</a>
+                        <a href="<?php echo base_url('u_costumDealPage'); ?>">New Arrivals</a>
                     </li>
                 </ul>
             </div>
@@ -83,8 +83,8 @@
                 <div class="product-item col-lg-3 col-md-6 col-sm-6">
                     <div class="item">
                         <div class="image-container">
-                            <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -97,17 +97,17 @@
                             <div class="what-product-is">
                                 <ul class="bread-crumb">
                                     <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men's</a>
+                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                     </li>
                                     <li class="has-separator">
-                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                     </li>
                                     <li>
-                                        <a href="shop-v3-sub-sub-category.html">Hoodies</a>
+                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Hoodies</a>
                                     </li>
                                 </ul>
                                 <h6 class="item-title">
-                                    <a href="single-product.html">Casual Hoodie Full Cotton</a>
+                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Casual Hoodie Full Cotton</a>
                                 </h6>
                                 <div class="item-description">
                                     <p>This hoodie is full cotton. It includes a muff sewn onto the lower front, and (usually) a drawstring to adjust the hood opening. Throughout the U.S., it is common for middle-school, high-school, and college students to wear this sweatshirts—with or without hoods—that display their respective school names or mascots across the chest, either as part of a uniform or personal preference.
@@ -137,8 +137,8 @@
                 <div class="product-item col-lg-3 col-md-6 col-sm-6">
                     <div class="item">
                         <div class="image-container">
-                            <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -151,17 +151,17 @@
                             <div class="what-product-is">
                                 <ul class="bread-crumb">
                                     <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men's</a>
+                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                     </li>
                                     <li class="has-separator">
-                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                     </li>
                                     <li>
-                                        <a href="shop-v3-sub-sub-category.html">T-Shirts</a>
+                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">T-Shirts</a>
                                     </li>
                                 </ul>
                                 <h6 class="item-title">
-                                    <a href="single-product.html">Mischka Plain Men T-Shirt</a>
+                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Mischka Plain Men T-Shirt</a>
                                 </h6>
                                 <div class="item-description">
                                     <p>T-shirts with bold slogans were popular in the UK in the 1980s. T-shirts were originally worn as undershirts, but are now worn frequently as the only piece of clothing on the top half of the body, other than possibly a brassiere or, rarely, a waistcoat (vest). T-shirts have also become a medium for self-expression and advertising, with any imaginable combination of words, art and photographs on display.</p>
@@ -187,8 +187,8 @@
                 <div class="product-item col-lg-3 col-md-6 col-sm-6">
                     <div class="item">
                         <div class="image-container">
-                            <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -201,17 +201,17 @@
                             <div class="what-product-is">
                                 <ul class="bread-crumb">
                                     <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men's</a>
+                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>.html">Men's</a>
                                     </li>
                                     <li class="has-separator">
-                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                     </li>
                                     <li>
-                                        <a href="shop-v4-filter-as-category.html">T-Shirts</a>
+                                        <a href="<?php echo base_url('u_shopv4FilterAsCategory'); ?>">T-Shirts</a>
                                     </li>
                                 </ul>
                                 <h6 class="item-title">
-                                    <a href="single-product.html">Black Bean Plain Men T-Shirt</a>
+                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Black Bean Plain Men T-Shirt</a>
                                 </h6>
                                 <div class="item-description">
                                     <p>T-shirts with bold slogans were popular in the UK in the 1980s. T-shirts were originally worn as undershirts, but are now worn frequently as the only piece of clothing on the top half of the body, other than possibly a brassiere or, rarely, a waistcoat (vest). T-shirts have also become a medium for self-expression and advertising, with any imaginable combination of words, art and photographs on display.</p>
@@ -237,8 +237,8 @@
                 <div class="product-item col-lg-3 col-md-6 col-sm-6">
                     <div class="item">
                         <div class="image-container">
-                            <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>"">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -251,17 +251,17 @@
                             <div class="what-product-is">
                                 <ul class="bread-crumb">
                                     <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men's</a>
+                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                     </li>
                                     <li class="has-separator">
-                                        <a href="shop-v2-sub-category.html">Bottoms</a>
+                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Bottoms</a>
                                     </li>
                                     <li>
-                                        <a href="shop-v3-sub-sub-category.html">Jeans</a>
+                                        <a href="<?php echo base_url('u_shopv3SubSubCategory'); ?>">Jeans</a>
                                     </li>
                                 </ul>
                                 <h6 class="item-title">
-                                    <a href="single-product.html">Regular Rock Blue Men Jean</a>
+                                    <a href="<?php echo base_url('u_singleProduct'); ?>">Regular Rock Blue Men Jean</a>
                                 </h6>
                                 <div class="item-description">
                                     <p>Traditionally, jeans were dyed to a blue color using natural indigo dye. Most denim is now dyed using synthetic indigo. Approximately 20 thousand tons of indigo are produced annually for this purpose, though only a few grams of the dye are required for each pair. For other colors of denim other dyes must be used. Currently, jeans are produced in any color that can be achieved with cotton.
@@ -291,8 +291,8 @@
                 <div class="product-item col-lg-3 col-md-6 col-sm-6">
                     <div class="item">
                         <div class="image-container">
-                            <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -305,13 +305,13 @@
                             <div class="what-product-is">
                                 <ul class="bread-crumb">
                                     <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men's</a>
+                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                     </li>
                                     <li class="has-separator">
-                                        <a href="shop-v2-sub-category.html">Tops</a>
+                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Tops</a>
                                     </li>
                                     <li>
-                                        <a href="shop-v3-sub-sub-category.html">Suits</a>
+                                        <a href="<?php echo base_url('u_shop3SubSubCategory'); ?>">Suits</a>
                                     </li>
                                 </ul>
                                 <h6 class="item-title">
@@ -344,8 +344,8 @@
                 <div class="product-item col-lg-3 col-md-6 col-sm-6">
                     <div class="item">
                         <div class="image-container">
-                            <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                            <a class="item-img-wrapper-link" href="<?php echo base_url('u_singleProduct'); ?>">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -358,13 +358,13 @@
                             <div class="what-product-is">
                                 <ul class="bread-crumb">
                                     <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men's</a>
+                                        <a href="<?php echo base_url('u_shopv1RootCategory'); ?>">Men's</a>
                                     </li>
                                     <li class="has-separator">
-                                        <a href="shop-v2-sub-category.html">Outwear</a>
+                                        <a href="<?php echo base_url('u_shopv2SubCategory'); ?>">Outwear</a>
                                     </li>
                                     <li>
-                                        <a href="shop-v3-sub-sub-category.html">Jackets</a>
+                                        <a href="<?php echo base_url('u_shop3SubSubCategory'); ?>">Jackets</a>
                                     </li>
                                 </ul>
                                 <h6 class="item-title">
@@ -395,7 +395,7 @@
                     <div class="item">
                         <div class="image-container">
                             <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -446,7 +446,7 @@
                     <div class="item">
                         <div class="image-container">
                             <a class="item-img-wrapper-link" href="single-product.html">
-                                <img class="img-fluid" src="images/product/product@3x.jpg" alt="Product">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@3x.jpg" alt="Product">
                             </a>
                             <div class="item-action-behaviors">
                                 <a class="item-quick-look" data-toggle="modal" href="#quick-view">Quick Look</a>
@@ -569,25 +569,25 @@
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <!-- Product-zoom-area -->
                             <div class="zoom-area">
-                                <img id="zoom-pro-quick-view" class="img-fluid" src="images/product/product@4x.jpg" data-zoom-image="images/product/product@4x.jpg" alt="Zoom Image">
+                                <img id="zoom-pro-quick-view" class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/product/product@4x.jpg" data-zoom-image="images/product/product@4x.jpg" alt="Zoom Image">
                                 <div id="gallery-quick-view" class="u-s-m-t-10">
                                     <a class="active" data-image="images/product/product@4x.jpg" data-zoom-image="images/product/product@4x.jpg">
                                         <img src="images/product/product@2x.jpg" alt="Product">
                                     </a>
                                     <a data-image="images/product/product@4x.jpg" data-zoom-image="images/product/product@4x.jpg">
-                                        <img src="images/product/product@2x.jpg" alt="Product">
+                                        <img src="<?php echo base_url('public/user/assets/'); ?>images/product/product@2x.jpg" alt="Product">
                                     </a>
                                     <a data-image="images/product/product@4x.jpg" data-zoom-image="images/product/product@4x.jpg">
-                                        <img src="images/product/product@2x.jpg" alt="Product">
+                                        <img src="<?php echo base_url('public/user/assets/'); ?>images/product/product@2x.jpg" alt="Product">
                                     </a>
                                     <a data-image="images/product/product@4x.jpg" data-zoom-image="images/product/product@4x.jpg">
-                                        <img src="images/product/product@2x.jpg" alt="Product">
+                                        <img src="<?php echo base_url('public/user/assets/'); ?>images/product/product@2x.jpg" alt="Product">
                                     </a>
                                     <a data-image="images/product/product@4x.jpg" data-zoom-image="images/product/product@4x.jpg">
-                                        <img src="images/product/product@2x.jpg" alt="Product">
+                                        <img src="<?php echo base_url('public/user/assets/'); ?>images/product/product@2x.jpg" alt="Product">
                                     </a>
                                     <a data-image="images/product/product@4x.jpg" data-zoom-image="images/product/product@4x.jpg">
-                                        <img src="images/product/product@2x.jpg" alt="Product">
+                                        <img src="<?php echo base_url('public/user/assets/'); ?>images/product/product@2x.jpg" alt="Product">
                                     </a>
                                 </div>
                             </div>
@@ -762,60 +762,4 @@
     display: none;
 } </style>
 <![endif]-->
-<!-- NoScript -->
-<noscript>
-    <div class="app-issue">
-        <div class="vertical-center">
-            <div class="text-center">
-                <h1>JavaScript is disabled in your browser.</h1>
-                <span>Please enable JavaScript in your browser or upgrade to a JavaScript-capable browser to register for Groover.</span>
-            </div>
-        </div>
-    </div>
-    <style>
-    #app {
-        display: none;
-    }
-    </style>
-</noscript>
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-window.ga = function() {
-    ga.q.push(arguments)
-};
-ga.q = [];
-ga.l = +new Date;
-ga('create', 'UA-XXXXX-Y', 'auto');
-ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async defer></script>
-<!-- Modernizr-JS -->
-<script type="text/javascript" src="js/vendor/modernizr-custom.min.js"></script>
-<!-- NProgress -->
-<script type="text/javascript" src="js/nprogress.min.js"></script>
-<!-- jQuery -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<!-- Bootstrap JS -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!-- Popper -->
-<script type="text/javascript" src="js/popper.min.js"></script>
-<!-- ScrollUp -->
-<script type="text/javascript" src="js/jquery.scrollUp.min.js"></script>
-<!-- Elevate Zoom -->
-<script type="text/javascript" src="js/jquery.elevatezoom.min.js"></script>
-<!-- jquery-ui-range-slider -->
-<script type="text/javascript" src="js/jquery-ui.range-slider.min.js"></script>
-<!-- jQuery Slim-Scroll -->
-<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
-<!-- jQuery Resize-Select -->
-<script type="text/javascript" src="js/jquery.resize-select.min.js"></script>
-<!-- jQuery Custom Mega Menu -->
-<script type="text/javascript" src="js/jquery.custom-megamenu.min.js"></script>
-<!-- jQuery Countdown -->
-<script type="text/javascript" src="js/jquery.custom-countdown.min.js"></script>
-<!-- Owl Carousel -->
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<!-- Main -->
-<script type="text/javascript" src="js/app.js"></script>
-</body>
-</html>
+<?php $this->load->view('user/includes/footerScript'); ?>

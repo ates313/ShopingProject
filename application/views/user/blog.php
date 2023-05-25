@@ -22,10 +22,10 @@
                 <ul class="bread-crumb">
                     <li class="has-separator">
                         <i class="ion ion-md-home"></i>
-                        <a href="home.html">Home</a>
+                        <a href="<?php echo base_url('u_home'); ?>">Home</a>
                     </li>
                     <li class="is-marked">
-                        <a href="blog.html">Blog</a>
+                        <a href="<?php echo base_url('u_blog'); ?>">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -40,18 +40,18 @@
                     <!-- Blog-Posts -->
                     <div class="blog-post u-s-m-b-80">
                         <div class="blog-post-wrapper u-s-m-b-26">
-                            <a class="blog-post-anchor" href="blog-detail.html">
-                                <img class="img-fluid" src="images/blog/blog-01.jpg" alt="Blog post 1">
+                            <a class="blog-post-anchor" href="<?php echo base_url('u_blogDetail'); ?>">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/blog/blog-01.jpg" alt="Blog post 1">
                             </a>
                         </div>
                         <h1 class="blog-post-heading u-s-m-b-13">
-                            <a href="blog-detail.html">Your Life is an extraordinary Adventure</a>
+                            <a href="<?php echo base_url('u_blogDetail'); ?>">Your Life is an extraordinary Adventure</a>
                         </h1>
                         <div class="blog-post-info u-s-m-b-13">
                             <span class="blog-post-preposition">By</span>
-                            <a class="blog-post-author-name" href="blog-detail.html">Admin</a>
+                            <a class="blog-post-author-name" href="<?php echo base_url('u_blogDetail'); ?>">Admin</a>
                             <span class="blog-post-info-separator">/</span>
-                            <a class="blog-post-comment" href="blog-detail.html">Comments (6)</a>
+                            <a class="blog-post-comment" href="<?php echo base_url('u_blogDetail'); ?>">Comments (6)</a>
                             <span class="blog-post-info-separator">/</span>
                             <span class="blog-post-published-date">
                                 <span>14</span>/
@@ -62,22 +62,22 @@
                         <p class="blog-post-paragraph u-s-m-b-16">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid, architecto corporis enim eum exercitationem fugit harum iste laudantium maxime nam non ratione reiciendis repellendus repudiandae soluta, velit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem beatae, consequuntur dolores inventore laboriosam maiores necessitatibus neque odit quisquam ratione rerum sequi unde veniam veritatis, voluptatem, voluptatibus. Amet, dicta?
                         </p>
-                        <a href="blog-detail.html" class="blog-post-read-more">Read More</a>
+                        <a href="<?php echo base_url('u_blogDetail'); ?>" class="blog-post-read-more">Read More</a>
                     </div>
                     <div class="blog-post u-s-m-b-80">
                         <div class="blog-post-wrapper u-s-m-b-26">
-                            <a class="blog-post-anchor" href="blog-detail.html">
-                                <img class="img-fluid" src="images/blog/blog-01.jpg" alt="Blog post 2">
+                            <a class="blog-post-anchor" href="<?php echo base_url('u_blogDetail'); ?>">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/blog/blog-01.jpg" alt="Blog post 2">
                             </a>
                         </div>
                         <h1 class="blog-post-heading u-s-m-b-13">
-                            <a href="blog-detail.html">Be More Confident in 30 Seconds</a>
+                            <a href="<?php echo base_url('u_blogDetail'); ?>">Be More Confident in 30 Seconds</a>
                         </h1>
                         <div class="blog-post-info u-s-m-b-13">
                             <span class="blog-post-preposition">By</span>
-                            <a class="blog-post-author-name" href="blog-detail.html">Admin</a>
+                            <a class="blog-post-author-name" href="<?php echo base_url('u_blogDetail'); ?>">Admin</a>
                             <span class="blog-post-info-separator">/</span>
-                            <a class="blog-post-comment" href="blog-detail.html">Comments (4)</a>
+                            <a class="blog-post-comment" href="<?php echo base_url('u_blogDetail'); ?>">Comments (4)</a>
                             <span class="blog-post-info-separator">/</span>
                             <span class="blog-post-published-date">
                                 <span>14</span>/
@@ -88,22 +88,22 @@
                         <p class="blog-post-paragraph u-s-m-b-16">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid, architecto corporis enim eum exercitationem fugit harum iste laudantium maxime nam non ratione reiciendis repellendus repudiandae soluta, velit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem beatae, consequuntur dolores inventore laboriosam maiores necessitatibus neque odit quisquam ratione rerum sequi unde veniam veritatis, voluptatem, voluptatibus. Amet, dicta?
                         </p>
-                        <a href="blog-detail.html" class="blog-post-read-more">Read More</a>
+                        <a href="<?php echo base_url('u_blogDetail'); ?>" class="blog-post-read-more">Read More</a>
                     </div>
                     <div class="blog-post u-s-m-b-80">
                         <div class="blog-post-wrapper u-s-m-b-26">
-                            <a class="blog-post-anchor" href="blog-detail.html">
-                                <img class="img-fluid" src="images/blog/blog-01.jpg" alt="Blog post 3">
+                            <a class="blog-post-anchor" href="<?php echo base_url('u_blogDetail'); ?>">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/blog/blog-01.jpg" alt="Blog post 3">
                             </a>
                         </div>
                         <h1 class="blog-post-heading u-s-m-b-13">
-                            <a href="blog-detail.html">Bury A Body With Me</a>
+                            <a href="<?php echo base_url('blogDetail'); ?>">Bury A Body With Me</a>
                         </h1>
                         <div class="blog-post-info u-s-m-b-13">
                             <span class="blog-post-preposition">By</span>
-                            <a class="blog-post-author-name" href="blog-detail.html">Admin</a>
+                            <a class="blog-post-author-name" href="<?php echo base_url('u_blogDetail'); ?>">Admin</a>
                             <span class="blog-post-info-separator">/</span>
-                            <a class="blog-post-comment" href="blog-detail.html">Comments (2)</a>
+                            <a class="blog-post-comment" href="<?php echo base_url('u_blogDetail'); ?>">Comments (2)</a>
                             <span class="blog-post-info-separator">/</span>
                             <span class="blog-post-published-date">
                                 <span>14</span>/
@@ -114,22 +114,22 @@
                         <p class="blog-post-paragraph u-s-m-b-16">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid, architecto corporis enim eum exercitationem fugit harum iste laudantium maxime nam non ratione reiciendis repellendus repudiandae soluta, velit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem beatae, consequuntur dolores inventore laboriosam maiores necessitatibus neque odit quisquam ratione rerum sequi unde veniam veritatis, voluptatem, voluptatibus. Amet, dicta?
                         </p>
-                        <a href="blog-detail.html" class="blog-post-read-more">Read More</a>
+                        <a href="<?php echo base_url('u_blogDetail'); ?>" class="blog-post-read-more">Read More</a>
                     </div>
                     <div class="blog-post u-s-m-b-80">
                         <div class="blog-post-wrapper u-s-m-b-26">
-                            <a class="blog-post-anchor" href="blog-detail.html">
-                                <img class="img-fluid" src="images/blog/blog-01.jpg" alt="Blog post 4">
+                            <a class="blog-post-anchor" href="<?php echo base_url('u_blogDetail'); ?>">
+                                <img class="img-fluid" src="<?php echo base_url('public/user/assets/'); ?>images/blog/blog-01.jpg" alt="Blog post 4">
                             </a>
                         </div>
                         <h1 class="blog-post-heading u-s-m-b-13">
-                            <a href="blog-detail.html">Everything Must Die</a>
+                            <a href="<?php echo base_url('u_blogDetail'); ?>">Everything Must Die</a>
                         </h1>
                         <div class="blog-post-info u-s-m-b-13">
                             <span class="blog-post-preposition">By</span>
-                            <a class="blog-post-author-name" href="blog-detail.html">John Doe</a>
+                            <a class="blog-post-author-name" href="<?php echo base_url('u_blogDetail'); ?>">John Doe</a>
                             <span class="blog-post-info-separator">/</span>
-                            <a class="blog-post-comment" href="blog-detail.html">Comments (0)</a>
+                            <a class="blog-post-comment" href="<?php echo base_url('u_blogDetail'); ?>">Comments (0)</a>
                             <span class="blog-post-info-separator">/</span>
                             <span class="blog-post-published-date">
                                 <span>14</span>/
@@ -140,32 +140,32 @@
                         <p class="blog-post-paragraph u-s-m-b-16">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid, architecto corporis enim eum exercitationem fugit harum iste laudantium maxime nam non ratione reiciendis repellendus repudiandae soluta, velit veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem beatae, consequuntur dolores inventore laboriosam maiores necessitatibus neque odit quisquam ratione rerum sequi unde veniam veritatis, voluptatem, voluptatibus. Amet, dicta?
                         </p>
-                        <a href="blog-detail.html" class="blog-post-read-more">Read More</a>
+                        <a href="<?php echo base_url('u_blogDetail'); ?>" class="blog-post-read-more">Read More</a>
                     </div>
                     <!-- Blog-Posts /- -->
                     <!-- Blog-Posts-Pagination -->
                     <div class="blog-pagination u-s-m-b-80">
                         <ul class="blog-pg-list">
                             <li>
-                                <a href="blog.html" class="bl-pg-link d-none">Back</a>
+                                <a href="<?php echo base_url('u_blog'); ?>" class="bl-pg-link d-none">Back</a>
                             </li>
                             <li>
-                                <a href="blog.html" class="bl-pg-link bl-pg-link-hover-a bl-pg-link-is-active">1</a>
+                                <a href="<?php echo base_url('u_blog'); ?>" class="bl-pg-link bl-pg-link-hover-a bl-pg-link-is-active">1</a>
                             </li>
                             <li>
-                                <a href="blog.html" class="bl-pg-link bl-pg-link-hover-a">2</a>
+                                <a href="<?php echo base_url('u_blog'); ?>" class="bl-pg-link bl-pg-link-hover-a">2</a>
                             </li>
                             <li>
-                                <a href="blog.html" class="bl-pg-link bl-pg-link-hover-a">3</a>
+                                <a href="<?php echo base_url('u_blog'); ?>" class="bl-pg-link bl-pg-link-hover-a">3</a>
                             </li>
                             <li>
-                                <a href="blog.html" class="bl-pg-link bl-pg-link-hover-gap">......</a>
+                                <a href="<?php echo base_url('u_blog'); ?>" class="bl-pg-link bl-pg-link-hover-gap">......</a>
                             </li>
                             <li>
-                                <a href="blog.html" class="bl-pg-link bl-pg-link-hover-a">4</a>
+                                <a href="<?php echo base_url('u_blog'); ?>" class="bl-pg-link bl-pg-link-hover-a">4</a>
                             </li>
                             <li>
-                                <a href="blog.html" class="bl-pg-link bl-pg-link-hover-b">Previous</a>
+                                <a href="<?php echo base_url('u_blog'); ?>" class="bl-pg-link bl-pg-link-hover-b">Previous</a>
                             </li>
                         </ul>
                     </div>
@@ -187,19 +187,19 @@
                         <h3 class="bl-sidebar-title-h3 u-s-m-b-20">Categories</h3>
                         <ul class="bl-sidebar-list">
                             <li>
-                                <a href="blog.html">Corporate</a>
+                                <a href="<?php echo base_url('u_blog'); ?>">Corporate</a>
                             </li>
                             <li>
-                                <a href="blog.html">Creative</a>
+                                <a href="<?php echo base_url('u_blog'); ?>">Creative</a>
                             </li>
                             <li>
-                                <a href="blog.html">Design</a>
+                                <a href="<?php echo base_url('u_blog'); ?>">Design</a>
                             </li>
                             <li>
-                                <a href="blog.html">News</a>
+                                <a href="<?php echo base_url('u_blog'); ?>">News</a>
                             </li>
                             <li>
-                                <a href="blog.html">Photography</a>
+                                <a href="<?php echo base_url('u_blog'); ?>">Photography</a>
                             </li>
                         </ul>
                     </div>
@@ -209,19 +209,19 @@
                         <h3 class="bl-sidebar-title-h3 u-s-m-b-20">Archives</h3>
                         <ul class="bl-sidebar-list">
                             <li>
-                                <a href="blog.html">March 2017 (1)</a>
+                                <a href="<?php echo base_url('u_blog'); ?>">March 2017 (1)</a>
                             </li>
                             <li>
-                                <a href="blog.html">December 2017 (3)</a>
+                                <a href="<?php echo base_url('u_blog'); ?>">December 2017 (3)</a>
                             </li>
                             <li>
-                                <a href="blog.html">November 2017 (4)</a>
+                                <a href="<?php echo base_url('u_blog'); ?>">November 2017 (4)</a>
                             </li>
                             <li>
-                                <a href="blog.html">September 2017 (1)</a>
+                                <a href="<?php echo base_url('u_blog'); ?>">September 2017 (1)</a>
                             </li>
                             <li>
-                                <a href="blog.html">August 2014 (1)</a>
+                                <a href="<?php echo base_url('u_blog'); ?>">August 2014 (1)</a>
                             </li>
                         </ul>
                     </div>
@@ -231,12 +231,12 @@
                         <h3 class="bl-sidebar-title-h3 u-s-m-b-20">Recent Post</h3>
                         <div class="recent-post u-s-m-b-18">
                             <div class="recent-post-image">
-                                <a class="" href="blog-detail.html">
-                                    <img src="images/blog/blog-recent.jpg" alt="recent post 1">
+                                <a class="" href="<?php echo base_url('u_blogDetail'); ?>">
+                                    <img src="<?php echo base_url('public/user/assets/'); ?>images/blog/blog-recent.jpg" alt="recent post 1">
                                 </a>
                             </div>
                             <div class="recent-post-info">
-                                <a class="" href="blog-detail.html">Your Life is an extraordinary Adventure</a>
+                                <a class="" href="<?php echo base_url('u_blogDetail'); ?>">Your Life is an extraordinary Adventure</a>
                                 <span class="recent-post-date">
                                     <span>16</span>/
                                     <span>10</span>/
@@ -246,12 +246,12 @@
                         </div>
                         <div class="recent-post u-s-m-b-18">
                             <div class="recent-post-image">
-                                <a class="" href="blog-detail.html">
-                                    <img src="images/blog/blog-recent.jpg" alt="recent post 2">
+                                <a class="" href="<?php echo base_url('u_blogDetail'); ?>">
+                                    <img src="<?php echo base_url('public/user/assets/'); ?>images/blog/blog-recent.jpg" alt="recent post 2">
                                 </a>
                             </div>
                             <div class="recent-post-info">
-                                <a class="" href="blog-detail.html">Be More Confident in 30 Seconds</a>
+                                <a class="" href="<?php echo base_url('u_blogDetail'); ?>">Be More Confident in 30 Seconds</a>
                                 <span class="recent-post-date">
                                     <span>16</span>/
                                     <span>10</span>/
@@ -261,12 +261,12 @@
                         </div>
                         <div class="recent-post u-s-m-b-18">
                             <div class="recent-post-image">
-                                <a class="" href="blog-detail.html">
-                                    <img src="images/blog/blog-recent.jpg" alt="recent post 3">
+                                <a class="" href="<?php echo base_url('u_blogDetail'); ?>">
+                                    <img src="<?php echo base_url('public/user/assets/'); ?>images/blog/blog-recent.jpg" alt="recent post 3">
                                 </a>
                             </div>
                             <div class="recent-post-info">
-                                <a class="" href="blog-detail.html">Bury A Body With Me</a>
+                                <a class="" href="<?php echo base_url('u_blogDetail'); ?>">Bury A Body With Me</a>
                                 <span class="recent-post-date">
                                     <span>16</span>/
                                     <span>10</span>/
@@ -276,12 +276,12 @@
                         </div>
                         <div class="recent-post u-s-m-b-18">
                             <div class="recent-post-image">
-                                <a class="" href="blog-detail.html">
-                                    <img src="images/blog/blog-recent.jpg" alt="recent post 4">
+                                <a class="" href="<?php echo base_url('u_blogDetail'); ?>">
+                                    <img src="<?php echo base_url('public/user/assets/'); ?>images/blog/blog-recent.jpg" alt="recent post 4">
                                 </a>
                             </div>
                             <div class="recent-post-info">
-                                <a class="" href="blog-detail.html">Everything Must Die</a>
+                                <a class="" href="<?php echo base_url('u_blogDetail'); ?>">Everything Must Die</a>
                                 <span class="recent-post-date">
                                     <span>16</span>/
                                     <span>10</span>/
@@ -291,12 +291,12 @@
                         </div>
                         <div class="recent-post u-s-m-b-18">
                             <div class="recent-post-image">
-                                <a class="" href="blog-detail.html">
-                                    <img src="images/blog/blog-recent.jpg" alt="recent post 5">
+                                <a class="" href="<?php echo base_url('u_blogDetail'); ?>">
+                                    <img src="<?php echo base_url('public/user/assets/'); ?>images/blog/blog-recent.jpg" alt="recent post 5">
                                 </a>
                             </div>
                             <div class="recent-post-info">
-                                <a class="" href="blog-detail.html">See A World in Grain Of Sand</a>
+                                <a class="" href="<?php echo base_url('u_blogDetail'); ?>">See A World in Grain Of Sand</a>
                                 <span class="recent-post-date">
                                     <span>16</span>/
                                     <span>10</span>/
@@ -309,13 +309,13 @@
                     <!-- Blog-Sidebar-Tag -->
                     <div class="bl-sidebar u-s-m-b-50">
                         <h3 class="bl-sidebar-title-h3 u-s-m-b-20">Tags</h3>
-                        <a href="blog.html" class="bl-tag u-s-m-b-8">Life</a>
-                        <a href="blog.html" class="bl-tag u-s-m-b-8">Creative</a>
-                        <a href="blog.html" class="bl-tag u-s-m-b-8">Ui/Ux</a>
-                        <a href="blog.html" class="bl-tag u-s-m-b-8">Design</a>
-                        <a href="blog.html" class="bl-tag u-s-m-b-8">Branding</a>
-                        <a href="blog.html" class="bl-tag u-s-m-b-8">World</a>
-                        <a href="blog.html" class="bl-tag u-s-m-b-8">Print</a>
+                        <a href="<?php echo base_url('u_blog'); ?>" class="bl-tag u-s-m-b-8">Life</a>
+                        <a href="<?php echo base_url('u_blog'); ?>" class="bl-tag u-s-m-b-8">Creative</a>
+                        <a href="<?php echo base_url('u_blog'); ?>" class="bl-tag u-s-m-b-8">Ui/Ux</a>
+                        <a href="<?php echo base_url('u_blog'); ?>" class="bl-tag u-s-m-b-8">Design</a>
+                        <a href="<?php echo base_url('u_blog'); ?>" class="bl-tag u-s-m-b-8">Branding</a>
+                        <a href="<?php echo base_url('u_blog'); ?>" class="bl-tag u-s-m-b-8">World</a>
+                        <a href="<?php echo base_url('u_blog'); ?>" class="bl-tag u-s-m-b-8">Print</a>
                     </div>
                     <!-- Blog-Sidebar-Tag /- -->
                 </div>
@@ -364,60 +364,4 @@
     display: none;
 } </style>
 <![endif]-->
-<!-- NoScript -->
-<noscript>
-    <div class="app-issue">
-        <div class="vertical-center">
-            <div class="text-center">
-                <h1>JavaScript is disabled in your browser.</h1>
-                <span>Please enable JavaScript in your browser or upgrade to a JavaScript-capable browser to register for Groover.</span>
-            </div>
-        </div>
-    </div>
-    <style>
-    #app {
-        display: none;
-    }
-    </style>
-</noscript>
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-window.ga = function() {
-    ga.q.push(arguments)
-};
-ga.q = [];
-ga.l = +new Date;
-ga('create', 'UA-XXXXX-Y', 'auto');
-ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async defer></script>
-<!-- Modernizr-JS -->
-<script type="text/javascript" src="js/vendor/modernizr-custom.min.js"></script>
-<!-- NProgress -->
-<script type="text/javascript" src="js/nprogress.min.js"></script>
-<!-- jQuery -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<!-- Bootstrap JS -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!-- Popper -->
-<script type="text/javascript" src="js/popper.min.js"></script>
-<!-- ScrollUp -->
-<script type="text/javascript" src="js/jquery.scrollUp.min.js"></script>
-<!-- Elevate Zoom -->
-<script type="text/javascript" src="js/jquery.elevatezoom.min.js"></script>
-<!-- jquery-ui-range-slider -->
-<script type="text/javascript" src="js/jquery-ui.range-slider.min.js"></script>
-<!-- jQuery Slim-Scroll -->
-<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
-<!-- jQuery Resize-Select -->
-<script type="text/javascript" src="js/jquery.resize-select.min.js"></script>
-<!-- jQuery Custom Mega Menu -->
-<script type="text/javascript" src="js/jquery.custom-megamenu.min.js"></script>
-<!-- jQuery Countdown -->
-<script type="text/javascript" src="js/jquery.custom-countdown.min.js"></script>
-<!-- Owl Carousel -->
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<!-- Main -->
-<script type="text/javascript" src="js/app.js"></script>
-</body>
-</html>
+<?php $this->load->view('user/includes/footerScript'); ?>

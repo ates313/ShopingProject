@@ -461,10 +461,10 @@
                                     <ul>
                                         <li class="menu-title">Home & Static Pages</li>
                                         <li>
-                                            <a href="<?php echo base_url('home'); ?>" class="u-c-brand">Home</a>
+                                            <a href="<?php echo base_url('u_home'); ?>" class="u-c-brand">Home</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo base_url('about'); ?>">About</a>
+                                            <a href="<?php echo base_url('u_about'); ?>">About</a>
                                         </li>
                                         <li>
                                             <a href="<?php echo base_url('u_contact'); ?>">Contact</a>
@@ -502,7 +502,7 @@
                                             <a href="<?php echo base_url("u_wishlist"); ?>">Wishlist</a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo base_url("u_track_order"); ?>">Track your Order</a>
+                                            <a href="<?php echo base_url("u_trackOrder"); ?>">Track your Order</a>
                                         </li>
                                         <li class="menu-title">Cart Variations</li>
                                         <li>
